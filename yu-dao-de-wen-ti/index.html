@@ -1,0 +1,255 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>遇到的问题 | 社会主义后花园</title>
+
+<link rel="shortcut icon" href="https://fxxisme.github.io/favicon.ico?v=1658713138574">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fxxisme.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            社会主义后花园
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1658713138574" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    遇到的问题
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2022-06-10 10:14:22 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <!-- more -->
+<p>👏  工作和日常中遇到某些小问题，记录在这里，后续再次遇到方便查询</p>
+<!-- more -->
+<p>🔓🔓🔓🔓🔓🔓🔓🔓🔓</p>
+<ul>
+<li>目录
+<ul>
+<li><a href="#windows-%E5%8F%B3%E9%94%AEbush-here-%E5%A4%B1%E6%95%88">Windows 右键bush here 失效</a></li>
+<li><a href="#vscode%E6%8F%92%E4%BB%B6gitlines%E4%B8%8D%E6%98%BE%E7%A4%BA">vscode插件gitlines不显示</a></li>
+<li><a href="#%E5%BC%BA%E5%88%B6%E6%8B%89%E5%8F%96%E4%BB%A3%E7%A0%81">强制拉取代码</a></li>
+<li><a href="#scp%E5%91%BD%E4%BB%A4%E4%BB%8E%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6-%E7%A7%98%E9%92%A5%E6%96%B9%E5%BC%8F">scp命令从远程下载文件</a></li>
+<li><a href="#%E6%A0%91%E5%BD%A2%E6%89%81%E5%B9%B3">树形扁平</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="windows-右键bush-here-失效">Windows 右键bush here 失效</h2>
+<ul>
+<li>运行regedit.exe进入注册表，在HKEY_CLASSES_ROOT\Directory\Background\shell中进行设置。</li>
+<li>新建项Git Bush Here，此时你可以看到在桌面右键会出现“Git Bush Here”菜单。</li>
+<li>添加Git Bush Icon，在第一步的新建项Git Bush Here下，新建字符串值Icon，然后编辑该值为“C:\Program Files\Git\mingw64\share\git\git-for-windows.ico”，你需要根据你安装的Git 目录进行配置修改。完成此步后，你会发现右键菜单“Git Bush Here”会多出一个Icon。</li>
+<li>添加Command项。在“Git Bush Here”下再新建项“Command”，将其默认值改为“C:\Program Files\Git\bin\bash.exe --login -i”，这样，你就可以通过右键菜单的方式快速进入Git命令行工具，进行代码版本管理。</li>
+</ul>
+<h2 id="vscode插件gitlines不显示">vscode插件gitlines不显示</h2>
+<pre><code>ctrl + shift + p 
+
+&quot;gitlines&quot;
+apply view layout
+</code></pre>
+<h2 id="强制拉取代码">强制拉取代码</h2>
+<pre><code>git fetch --all
+git reset --hard origin/master
+git pull //可以省略
+</code></pre>
+<h2 id="scp命令从远程下载文件-秘钥方式">scp命令从远程下载文件 (秘钥方式)</h2>
+<pre><code>// 下载单个文件
+scp -i ~/ssh.key root@IP:data/ ./
+// 下载目录
+scp -r -i ~/ssh.key root@IP:data/ ./
+
+// 上传时本地目录和远程目录顺序调换即可
+</code></pre>
+<h2 id="树形扁平">树形&lt;=&gt;扁平</h2>
+<pre><code>/**
+ * @function 扁平化结构数据转换为树形结构数据
+ * @param {*} obj 源数据
+ * @param {*} childrenKey 需要遍历的子数据的key
+ * @param {*} parentId 用于比较的父级id的key
+ * @param {*} childId 子级中用于和父级比较的key
+ * @returns 树结构
+ */
+export function formatTree(obj, childrenKey = 'children', parentId = 'gid', childId = 'parentGid') {
+	let copyedObj = JSON.parse(JSON.stringify(obj)) //深拷贝源数据
+	return copyedObj.filter(parent =&gt; {
+		parent.id = parent[parentId]
+		let findChildren = copyedObj.filter(child =&gt; {
+			return parent[parentId] == child[childId]
+		})
+		findChildren.length &gt; 0 ? parent[childrenKey] = findChildren : parent[childrenKey] = []
+		return !parent[childId] //返回顶层，依据实际情况判断这里的返回值
+	})
+}
+
+/**
+ * @function 树形结构转为扁平结构
+ * @param {*} data 源数据
+ * @param {*} childrenKey 需要遍历的子数据的key
+ * @returns 树结构
+ */
+export function formatList(data, childrenKey = 'childs') {
+	return data.reduce((res, node) =&gt; {
+		res.push(node)
+		if (node[childrenKey]) res = res.concat(formatList(node[childrenKey], childrenKey));
+		return res
+	}, [])
+}
+</code></pre>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://fxxisme.github.io/hello-gridea/" class="post-title gt-a-link">
+                    Start Gridea
+                </a>
+            </div>
+        
+
+        
+            <span id="/yu-dao-de-wen-ti//" class="leancloud_visitors" data-flag-title="遇到的问题">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'P2VI2ct1knMNE4jgV8CR6DCc-gzGzoHsz',
+		appKey: 'UskwKS7iGiIEmECrnD49Crbx',
+		avatar: '',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: 'Just Go Go',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first"><span style="font-size: 12px;font-weight: bold">夕阳像一只猫, 在车头衰老</span></div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://user.qzone.qq.com/961932090" target="_blank">Fxx</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://fxxisme.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

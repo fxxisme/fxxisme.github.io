@@ -1,0 +1,3137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://fxxisme.github.io</id>
+    <title>社会主义后花园</title>
+    <updated>2022-07-25T01:39:26.736Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://fxxisme.github.io"/>
+    <link rel="self" href="https://fxxisme.github.io/atom.xml"/>
+    <subtitle>&lt;span style=&quot;font-size: 12px;font-weight: bold&quot;&gt;夕阳像一只猫, 在车头衰老&lt;/span&gt;</subtitle>
+    <logo>https://fxxisme.github.io/images/avatar.png</logo>
+    <icon>https://fxxisme.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 社会主义后花园</rights>
+    <entry>
+        <title type="html"><![CDATA[推荐几个阿里云盘搜索引擎]]></title>
+        <id>https://fxxisme.github.io/tui-jian-ji-ge-a-li-yun-pan-sou-suo-yin-qing/</id>
+        <link href="https://fxxisme.github.io/tui-jian-ji-ge-a-li-yun-pan-sou-suo-yin-qing/">
+        </link>
+        <updated>2022-07-15T02:11:38.000Z</updated>
+        <content type="html"><![CDATA[<p>😄😁</p>
+<p><a href="https://www.niceso.fun/">奈斯搜索 - 资源超丰富的阿里云盘资源搜索网站！</a></p>
+<p><a href="https://www.alipansou.com">网盘搜索-阿里盘搜</a></p>
+<p><a href="http://alipanso6.com/">UP云搜-阿里盘搜永久地址发布页</a></p>
+<p><a href="https://www.alipanso.com/">UP云搜 - 阿里云盘资源搜索神器</a></p>
+<p><a href="http://www.yunpanka.com/">云盘咖 - 网盘资源分享</a></p>
+<p><a href="https://jujuso.com/">优聚搜 </a></p>
+<p><a href="https://zhaoziyuan.me/">找资源 - 阿里云盘资源搜索引擎 </a></p>
+<p><a href="https://dapanso.com">大盘搜 </a></p>
+<p><a href="https://www.nmme.cc/">橘子盘搜-好用的影视资源搜索引擎 </a></p>
+<p><a href="https://www.fuzhugou.com/">辅助狗 -放心软件搜索平台 </a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费领QQ豪华绿钻三天，QQ音乐会员]]></title>
+        <id>https://fxxisme.github.io/mian-fei-ling-qq-hao-hua-lu-zuan-san-tian-qq-yin-le-hui-yuan/</id>
+        <link href="https://fxxisme.github.io/mian-fei-ling-qq-hao-hua-lu-zuan-san-tian-qq-yin-le-hui-yuan/">
+        </link>
+        <updated>2022-06-22T05:44:15.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>点击链接扫描登录qq，即可领取</li>
+<li><a href="http://47.105.90.94/vipmusic.html">链接</a></li>
+</ul>
+<p>ps :</p>
+<ul>
+<li>更多福利商品在</li>
+<li><a href="https://fxx6.zhaojiali.top/fs">链接</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[低价商品，网络业务, 欢迎光临]]></title>
+        <id>https://fxxisme.github.io/di-jie-shang-pin-wang-luo-ye-wu-huan-ying-guang-lin/</id>
+        <link href="https://fxxisme.github.io/di-jie-shang-pin-wang-luo-ye-wu-huan-ying-guang-lin/">
+        </link>
+        <updated>2022-06-15T06:19:22.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>🥋🤼‍♂🏄‍♀🏇🏇🎖🎖🥇🎫🏅⛱🎡🎠⛱🏨🏥🇨🇭🇿🇦🇸🇨🇸🇬🇷🇼▪️▪️🔻🔳⏫↗️⏺▶️📇🗂🖌📙👸🎒🎒👩‍👦👩‍👩‍👧‍👧👩‍👩‍👧‍👧👨‍👨‍👦</p>
+<p>百货商店，想你所想，欢迎浏览</p>
+<ul>
+<li><a href="https://fxx6.zhaojiali.top/fs">地址链接</a><br>
+<img src="https://fxxisme.github.io/post-images/1655274235017.png" alt="" loading="lazy"></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一些实用的JS方法]]></title>
+        <id>https://fxxisme.github.io/yi-xie-shi-yong-de-js-fang-fa/</id>
+        <link href="https://fxxisme.github.io/yi-xie-shi-yong-de-js-fang-fa/">
+        </link>
+        <updated>2022-06-14T01:31:41.000Z</updated>
+        <content type="html"><![CDATA[<p>🚵‍♀ 工作中可能用到的一些方法，避免重复造轮子</p>
+<h2 id="日期处理">日期处理</h2>
+<h4 id="1-检查日期是否有效">1. 检查日期是否有效</h4>
+<pre><code>onst isDateValid = (...val) =&gt; !Number.isNaN(new Date(...val).valueOf());
+
+isDateValid(&quot;December 17, 1995 03:24:00&quot;);  // true
+</code></pre>
+<h4 id="2-计算两个日期之间的间隔">2. 计算两个日期之间的间隔</h4>
+<pre><code>const dayDif = (date1, date2) =&gt; Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000)
+    
+dayDif(new Date(&quot;2021-11-3&quot;), new Date(&quot;2022-2-1&quot;))  // 90
+</code></pre>
+<h4 id="3-查找日期位于一年中的第几天">3. 查找日期位于一年中的第几天</h4>
+<pre><code>const dayOfYear = (date) =&gt; Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+
+dayOfYear(new Date());   // 307
+</code></pre>
+<h4 id="4-时间格式化">4. 时间格式化</h4>
+<pre><code>const timeFromDate = date =&gt; date.toTimeString().slice(0, 8);
+    
+timeFromDate(new Date(2021, 11, 2, 12, 30, 0));  // 12:30:00
+timeFromDate(new Date());  // 返回当前时间 09:00:00
+</code></pre>
+<h2 id="字符串处理">字符串处理</h2>
+<h4 id="1-字符串首字母大写">1. 字符串首字母大写</h4>
+<pre><code>const capitalize = str =&gt; str.charAt(0).toUpperCase() + str.slice(1)
+
+capitalize(&quot;hello world&quot;)  // Hello world
+</code></pre>
+<h4 id="2-翻转字符串">2. 翻转字符串</h4>
+<pre><code>const reverse = str =&gt; str.split('').reverse().join('');
+
+reverse('hello world');   // 'dlrow olleh'
+</code></pre>
+<h4 id="3-随机字符串">3. 随机字符串</h4>
+<pre><code>const randomString = () =&gt; Math.random().toString(36).slice(2);
+
+randomString();
+</code></pre>
+<h4 id="4-截断字符串">4. 截断字符串</h4>
+<pre><code>const truncateString = (string, length) =&gt; string.length &lt; length ? string : `${string.slice(0, length - 3)}...`;
+
+truncateString('Hi, I should be truncated because I am too loooong!', 36)   //'Hi, I should be truncated because...'
+</code></pre>
+<h2 id="数组处理">数组处理</h2>
+<h4 id="1-从数组中移除重复项">1. 从数组中移除重复项</h4>
+<pre><code>const removeDuplicates = (arr) =&gt; [...new Set(arr)];
+
+console.log(removeDuplicates([1, 2, 2, 3, 3, 4, 4, 5, 5, 6]));
+</code></pre>
+<h4 id="2-判断数组是否为空">2. 判断数组是否为空</h4>
+<pre><code>const isNotEmpty = arr =&gt; Array.isArray(arr) &amp;&amp; arr.length &gt; 0;
+
+isNotEmpty([1, 2, 3]);  // true
+</code></pre>
+<h4 id="4-合并两个数组">4. 合并两个数组</h4>
+<pre><code>const merge = (a, b) =&gt; a.concat(b);
+
+const merge = (a, b) =&gt; [...a, ...b];
+</code></pre>
+<h2 id="数字操作">数字操作</h2>
+<h4 id="1-判断一个数是奇数还是偶数">1. 判断一个数是奇数还是偶数</h4>
+<pre><code>const isEven = num =&gt; num % 2 === 0;
+
+isEven(996); 
+</code></pre>
+<h4 id="2-获得一组数的平均值">2. 获得一组数的平均值</h4>
+<pre><code>const average = (...args) =&gt; args.reduce((a, b) =&gt; a + b) / args.length;
+
+average(1, 2, 3, 4, 5);   // 3
+</code></pre>
+<h4 id="3-获取两个整数之间的随机整数">3. 获取两个整数之间的随机整数</h4>
+<pre><code>const random = (min, max) =&gt; Math.floor(Math.random() * (max - min + 1) + min);
+
+random(1, 50);
+</code></pre>
+<h4 id="4-指定位数四舍五入">4. 指定位数四舍五入</h4>
+<pre><code>const round = (n, d) =&gt; Number(Math.round(n + &quot;e&quot; + d) + &quot;e-&quot; + d)
+
+round(1.005, 2) //1.01
+round(1.555, 2) //1.56
+</code></pre>
+<h2 id="颜色操作">颜色操作</h2>
+<h4 id="将rgb转化为十六机制">将RGB转化为十六机制</h4>
+<pre><code>const rgbToHex = (r, g, b) =&gt; &quot;##&quot; + ((1 &lt;&lt; 24) + (r &lt;&lt; 16) + (g &lt;&lt; 8) + b).toString(16).slice(1);
+
+rgbToHex(255, 255, 255);  // '##ffffff'
+</code></pre>
+<h4 id="获取随机十六进制颜色">获取随机十六进制颜色</h4>
+<pre><code>const randomHex = () =&gt; `##${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, &quot;0&quot;)}`;
+
+randomHex();
+</code></pre>
+<h2 id="浏览器操作">浏览器操作</h2>
+<h4 id="复制内容到剪切板">复制内容到剪切板</h4>
+<pre><code>const copyToClipboard = (text) =&gt; navigator.clipboard.writeText(text);
+
+copyToClipboard(&quot;Hello World&quot;);
+</code></pre>
+<h4 id="清除所有cookie">清除所有cookie</h4>
+<pre><code>const clearCookies = document.cookie.split(';').forEach(cookie =&gt; document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+</code></pre>
+<h4 id="获取选中的文本">获取选中的文本</h4>
+<pre><code>const getSelectedText = () =&gt; window.getSelection().toString();
+
+getSelectedText();
+</code></pre>
+<h4 id="检测是否是黑暗模式">检测是否是黑暗模式</h4>
+<pre><code>const isDarkMode = window.matchMedia &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches
+
+console.log(isDarkMode)
+</code></pre>
+<h4 id="滚动到页面顶部">滚动到页面顶部</h4>
+<pre><code>const goToTop = () =&gt; window.scrollTo(0, 0);
+
+goToTop();
+</code></pre>
+<h4 id="判断当前标签页是否激活">判断当前标签页是否激活</h4>
+<pre><code>const isTabInView = () =&gt; !document.hidden; 
+</code></pre>
+<h4 id="判断当前是否是苹果设备">判断当前是否是苹果设备</h4>
+<pre><code>const isAppleDevice = () =&gt; /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+
+isAppleDevice();
+</code></pre>
+<h4 id="是否滚动到页面底部">是否滚动到页面底部</h4>
+<pre><code>const scrolledToBottom = () =&gt; document.documentElement.clientHeight + window.scrollY &gt;= document.documentElement.scrollHeight;
+
+</code></pre>
+<h4 id="重定向到一个url">重定向到一个URL</h4>
+<pre><code>const redirect = url =&gt; location.href = url
+
+redirect(&quot;https://www.google.com/&quot;)
+</code></pre>
+<h4 id="打开浏览器打印框">打开浏览器打印框</h4>
+<pre><code>const showPrintDialog = () =&gt; window.print()
+
+</code></pre>
+<h2 id="其他操作">其他操作</h2>
+<h4 id="随机布尔值">随机布尔值</h4>
+<pre><code>// 该方法可以返回一个随机的布尔值，使用Math.random()可以获得0-1的随机数，与0.5进行比较，就有一半的概率获得真值或者假值。
+
+
+const randomBoolean = () =&gt; Math.random() &gt;= 0.5;
+
+randomBoolean();
+</code></pre>
+<h4 id="变量交换">变量交换</h4>
+<pre><code>// 可以使用以下形式在不适用第三个变量的情况下，交换两个变量的值
+[foo, bar] = [bar, foo];
+</code></pre>
+<h4 id="获取变量的类型">获取变量的类型</h4>
+<pre><code>const trueTypeOf = (obj) =&gt; Object.prototype.toString.call(obj).slice(8, -1).toLowerCase();
+
+trueTypeOf('');     // string
+trueTypeOf(0);      // number
+trueTypeOf();       // undefined
+trueTypeOf(null);   // null
+trueTypeOf({});     // object
+trueTypeOf([]);     // array
+trueTypeOf(0);      // number
+trueTypeOf(() =&gt; {});  // function
+</code></pre>
+<h4 id="华氏度和摄氏度之间的转化">华氏度和摄氏度之间的转化</h4>
+<pre><code>const celsiusToFahrenheit = (celsius) =&gt; celsius * 9/5 + 32;
+const fahrenheitToCelsius = (fahrenheit) =&gt; (fahrenheit - 32) * 5/9;
+
+celsiusToFahrenheit(15);    // 59
+celsiusToFahrenheit(0);     // 32
+celsiusToFahrenheit(-20);   // -4
+fahrenheitToCelsius(59);    // 15
+fahrenheitToCelsius(32);    // 0
+</code></pre>
+<h4 id="检测对象是否为空">检测对象是否为空</h4>
+<pre><code>const isEmpty = obj =&gt; Reflect.ownKeys(obj).length === 0 &amp;&amp; obj.constructor === Object;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KMS激活教程]]></title>
+        <id>https://fxxisme.github.io/kms-ji-huo-jiao-cheng/</id>
+        <link href="https://fxxisme.github.io/kms-ji-huo-jiao-cheng/">
+        </link>
+        <updated>2022-06-10T02:48:40.000Z</updated>
+        <content type="html"><![CDATA[<hr>
+<blockquote>
+<p>**kms地址：**kms.gxzyzd.com</p>
+<p>**端口：**默认（1688）</p>
+<p>**说明：**可用于激活 Office 批量版和 Windows 系统，联网自动续期。仅用于个人测试使用，公司电脑请勿使用，否则后果自负。</p>
+</blockquote>
+<h1 id="windows">Windows</h1>
+<h2 id="windows-系统-kms-激活方法">Windows 系统 kms 激活方法</h2>
+<p>以管理员身份运行命令提示符（cmd）</p>
+<p>设置 kms 服务器地址</p>
+<pre><code class="language-bsh">slmgr /skms kms.gxzyzd.com
+</code></pre>
+<p>激活命令</p>
+<pre><code class="language-bsh">slmgr /ato
+</code></pre>
+<p>也可以直接使用二合一的命令</p>
+<pre><code>slmgr /skms kms.gxzyzd.com &amp;&amp; slmgr /ato
+</code></pre>
+<h2 id="说明">说明</h2>
+<ol>
+<li>一般情况下下载的 VOL 版镜像都会内置密钥，直接设置 kms 地址并激活即可</li>
+<li>查看系统版本的命令： <code>wmic os get caption</code></li>
+<li>如果内置 key 因其他原因而不可用，可以设置附录中的key  命令如下：  <code>slmgr /ipk xxxxx-xxxxx-xxxxx-xxxxx-xxxxx</code></li>
+<li>一定要使用管理员身份运行 CMD 命令提示符，否则一定激活失败！！！</li>
+<li>命令输入时请注意看好空格！</li>
+<li>检查激活状态的命令： <code>slmgr /dlv</code></li>
+</ol>
+<h1 id="office-软件">Office 软件</h1>
+<h2 id="office-软件激活方法">Office 软件激活方法</h2>
+<p>以管理员身份打开命令提示符（cmd）</p>
+<p>使用 cd 命令进入 Office 安装目录，例如：</p>
+<pre><code>Office2010 默认安装目录
+
+32位的 cd C:\Program Files (x86)\Microsoft Office\Office14
+64位的 cd C:\Program Files\Microsoft Office\Office14
+
+Office2013 默认安装目录
+32位的 cd C:\Program Files (x86)\Microsoft Office\Office15
+64位的 cd C:\Program Files\Microsoft Office\Office15
+
+Office2016默认安装目录
+32位的 cd C:\Program Files (x86)\Microsoft Office\Office16
+64位的 cd C:\Program Files\Microsoft Office\Office16
+
+</code></pre>
+<p>设置 kms 服务器</p>
+<pre><code>cscript ospp.vbs /sethst:kms.gxzyzd.com
+</code></pre>
+<p>激活命令</p>
+<pre><code>cscript ospp.vbs /act
+</code></pre>
+<p>也可以两条命令合二为一</p>
+<pre><code>cscript ospp.vbs /sethst:kms.gxzyzd.com &amp;&amp; cscript ospp.vbs /act
+</code></pre>
+<h2 id="说明-2">说明</h2>
+<ol>
+<li>如果安装到了其他的盘，需要自行找到对应存放 OSPP.VBS 文件的路径。</li>
+<li>一般下载安装 VOL 批量版本的应用都会默认一个 key 的，如果 key 不对可以在附录中找到对应的 key 在 Word 账户更改密钥。</li>
+<li>一定要使用管理员身份运行 CMD 命令提示符，否则一定激活失败！！！</li>
+<li>命令输入时请注意看好空格！</li>
+<li>检查是否激活成功，打开 Word-文件-账户-不显示需要激活即可</li>
+</ol>
+<h1 id="附录">附录：</h1>
+<h2 id="windows-2">Windows</h2>
+<h3 id="windows-server-半年频道版本">Windows Server 半年频道版本</h3>
+<h4 id="windows-server-版本-1909-版本1903-和版本-1809">Windows Server 版本 1909、版本1903 和版本 1809</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows Server Datacenter</td>
+<td style="text-align:left">6NMRW-2C8FM-D24W7-TQWMY-CWH2D</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server Standard</td>
+<td style="text-align:left">N2KJX-J94YW-TQVFB-DG9YT-724CC</td>
+</tr>
+</tbody>
+</table>
+<h3 id="windows-server-ltscltsb-版本">Windows Server LTSC/LTSB 版本</h3>
+<h4 id="windows-server-2019">Windows Server 2019</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows Server 2019 Datacenter</td>
+<td style="text-align:left">WMDGN-G9PQG-XVVXX-R3X43-63DFG</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2019 Standard</td>
+<td style="text-align:left">N69G4-B89J2-4G8F4-WWYCC-J464C</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2019 Essentials</td>
+<td style="text-align:left">WVDHN-86M7X-466P6-VHXV7-YY726</td>
+</tr>
+</tbody>
+</table>
+<h4 id="windows-server-2016">Windows Server 2016</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows Server 2016 Datacenter</td>
+<td style="text-align:left">CB7KF-BWN84-R7R2Y-793K2-8XDDG</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2016 Standard</td>
+<td style="text-align:left">WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2016 Essentials</td>
+<td style="text-align:left">JCKRF-N37P4-C2D82-9YXRT-4M63B</td>
+</tr>
+</tbody>
+</table>
+<h3 id="windows-10所有支持的半年频道版本">Windows 10，所有支持的半年频道版本</h3>
+<p>有关受支持的版本和服务终止日期的信息，请参阅 <a href="https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet">Windows 生命周期情况说明书</a>。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows 10 专业版</td>
+<td style="text-align:left">W269N-WFGWX-YVC9B-4J6C9-T83GX</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 专业版 N</td>
+<td style="text-align:left">MH37W-N47XK-V7XM9-C7227-GCQG9</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 专业工作站版</td>
+<td style="text-align:left">NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 专业工作站版 N</td>
+<td style="text-align:left">9FNHH-K3HBT-3W4TD-6383H-6XYWF</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 专业教育版</td>
+<td style="text-align:left">6TP4R-GNPTD-KYYHQ-7B7DP-J447Y</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 专业教育版 N</td>
+<td style="text-align:left">YVWGF-BXNMC-HTQYQ-CPQ99-66QFC</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 教育版</td>
+<td style="text-align:left">NW6C2-QMPVW-D7KKK-3GKT6-VCFB2</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 教育版 N</td>
+<td style="text-align:left">2WH4N-8QGBV-H22JP-CT43Q-MDWWJ</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 企业版</td>
+<td style="text-align:left">NPPR9-FWDCX-D2C8J-H872K-2YT43</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 企业版 N</td>
+<td style="text-align:left">DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 企业版 G</td>
+<td style="text-align:left">YYVX9-NTFWV-6MDM3-9PT4T-4M68B</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 企业版 G N</td>
+<td style="text-align:left">44RPN-FTY23-9VTTB-MP9BX-T84FV</td>
+</tr>
+</tbody>
+</table>
+<h3 id="windows-10-ltscltsb-版本">Windows 10 LTSC/LTSB 版本</h3>
+<h4 id="windows-10-ltsc-2019">Windows 10 LTSC 2019</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows 10 企业版 LTSC 2019</td>
+<td style="text-align:left">M7XTQ-FN8P6-TTKYV-9D4CC-J462D</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 企业版 N LTSC 2019</td>
+<td style="text-align:left">92NFX-8DJQP-P6BBQ-THF9C-7CG2H</td>
+</tr>
+</tbody>
+</table>
+<h4 id="windows-10-ltsb-2016">Windows 10 LTSB 2016</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows 10 企业版 LTSB 2016</td>
+<td style="text-align:left">DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 企业版 N LTSB 2016</td>
+<td style="text-align:left">QFFDN-GRT3P-VKWWX-X7T3R-8B639</td>
+</tr>
+</tbody>
+</table>
+<h4 id="windows-10-ltsb-2015">Windows 10 LTSB 2015</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows 10 企业版 2015 LTSB</td>
+<td style="text-align:left">WNMTR-4C88C-JK8YV-HQ7T2-76DF9</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 10 企业版 2015 LTSB N</td>
+<td style="text-align:left">2F77B-TNFGY-69QQF-B8YKP-D69TJ</td>
+</tr>
+</tbody>
+</table>
+<h3 id="早期版本的-windows-server">早期版本的 Windows Server</h3>
+<h4 id="windows-server-版本-1803">Windows Server 版本 1803</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows Server Datacenter</td>
+<td style="text-align:left">2HXDN-KRXHB-GPYC7-YCKFJ-7FVDG</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server Standard</td>
+<td style="text-align:left">PTXN8-JFHJM-4WC78-MPCBR-9W4KR</td>
+</tr>
+</tbody>
+</table>
+<h4 id="windows-server-版本-1709">Windows Server 版本 1709</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows Server Datacenter</td>
+<td style="text-align:left">6Y6KB-N82V8-D8CQV-23MJW-BWTG6</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server Standard</td>
+<td style="text-align:left">DPCNP-XQFKJ-BJF7R-FRC8D-GF6G4</td>
+</tr>
+</tbody>
+</table>
+<h4 id="windows-server-2012-r2">Windows Server 2012 R2</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows Server 2012 R2 Server Standard</td>
+<td style="text-align:left">D2N9P-3P6X9-2R39C-7RTCD-MDVJX</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2012 R2 Datacenter</td>
+<td style="text-align:left">W3GGN-FT8W3-Y4M27-J84CP-Q3VJ9</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2012 R2 Essentials</td>
+<td style="text-align:left">KNC87-3J2TX-XB4WP-VCPJV-M4FWM</td>
+</tr>
+</tbody>
+</table>
+<h4 id="windows-server-2012">Windows Server 2012</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows Server 2012</td>
+<td style="text-align:left">BN3D2-R7TKB-3YPBD-8DRP2-27GG4</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2012 N</td>
+<td style="text-align:left">8N2M2-HWPGY-7PGT9-HGDD8-GVGGY</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2012 单语言版</td>
+<td style="text-align:left">2WN2H-YGCQR-KFX6K-CD6TF-84YXQ</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2012 特定国家/地区版</td>
+<td style="text-align:left">4K36P-JN4VD-GDC6V-KDT89-DYFKP</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2012 Server 标准版</td>
+<td style="text-align:left">XC9B7-NBPP2-83J2H-RHMBY-92BT4</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2012 MultiPoint 标准版</td>
+<td style="text-align:left">HM7DN-YVMH3-46JC3-XYTG7-CYQJJ</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2012 MultiPoint 高级版</td>
+<td style="text-align:left">XNH6W-2V9GX-RGJ4K-Y8X6F-QGJ2G</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2012 Datacenter</td>
+<td style="text-align:left">48HP8-DN98B-MYWDG-T2DCC-8W83P</td>
+</tr>
+</tbody>
+</table>
+<h4 id="windows-server-2008-r2">Windows Server 2008 R2</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows Server 2008 R2 Web 版</td>
+<td style="text-align:left">6TPJF-RBVHG-WBW2R-86QPH-6RTM4</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2008 R2 HPC 版</td>
+<td style="text-align:left">TT8MH-CG224-D3D7Q-498W2-9QCTX</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2008 R2 标准版</td>
+<td style="text-align:left">YC6KT-GKW9T-YTKYR-T4X34-R7VHC</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2008 R2 企业版</td>
+<td style="text-align:left">489J6-VHDMP-X63PK-3K798-CPX3Y</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2008 R2 Datacenter</td>
+<td style="text-align:left">74YFP-3QFB3-KQT8W-PMXWJ-7M648</td>
+</tr>
+<tr>
+<td style="text-align:left">面向基于 Itanium 系统的 Windows Server 2008 R2</td>
+<td style="text-align:left">GT63C-RJFQ3-4GMB6-BRFB9-CB83V</td>
+</tr>
+</tbody>
+</table>
+<h4 id="windows-2008-server">Windows 2008 Server</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows Web Server 2008</td>
+<td style="text-align:left">WYR28-R7TFJ-3X2YQ-YCY4H-M249D</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2008 标准版</td>
+<td style="text-align:left">TM24T-X9RMF-VWXK6-X8JC9-BFGM2</td>
+</tr>
+<tr>
+<td style="text-align:left">不带 Hyper-V 的 Windows Server 2008 标准版</td>
+<td style="text-align:left">W7VD6-7JFBR-RX26B-YKQ3Y-6FFFJ</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2008 企业版</td>
+<td style="text-align:left">YQGMW-MPWTJ-34KDK-48M3W-X4Q6V</td>
+</tr>
+<tr>
+<td style="text-align:left">不带 Hyper-V 的 Windows Server 2008 企业版</td>
+<td style="text-align:left">39BXF-X8Q23-P2WWT-38T2F-G3FPG</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2008 HPC</td>
+<td style="text-align:left">RCTX3-KWVHP-BR6TB-RB6DM-6X7HP</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows Server 2008 Datacenter</td>
+<td style="text-align:left">7M67G-PC374-GR742-YH8V4-TCBY3</td>
+</tr>
+<tr>
+<td style="text-align:left">不带 Hyper-V 的 Windows Server 2008 数据中心版</td>
+<td style="text-align:left">22XQ2-VRXRG-P8D42-K34TD-G3QQC</td>
+</tr>
+<tr>
+<td style="text-align:left">面向基于 Itanium 系统的 Windows Server 2008</td>
+<td style="text-align:left">4DWFP-JF3DJ-B7DTH-78FJB-PDRHK</td>
+</tr>
+</tbody>
+</table>
+<h3 id="早期版本的-windows">早期版本的 Windows</h3>
+<h4 id="windows-81">Windows 8.1</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows 8.1 专业版</td>
+<td style="text-align:left">GCRJD-8NW9H-F2CDX-CCM8D-9D6T9</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 8.1 专业版 N</td>
+<td style="text-align:left">HMCNV-VVBFX-7HMBH-CTY9B-B4FXY</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 8.1 企业版</td>
+<td style="text-align:left">MHF9N-XY6XB-WVXMC-BTDCT-MKKG7</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 8.1 企业版 N</td>
+<td style="text-align:left">TT4HM-HN7YT-62K67-RGRQJ-JFFXW</td>
+</tr>
+</tbody>
+</table>
+<h4 id="windows-8">Windows 8</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows 8 专业版</td>
+<td style="text-align:left">NG4HW-VH26C-733KW-K6F98-J8CK4</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 8 专业版 N</td>
+<td style="text-align:left">XCVCF-2NXM9-723PB-MHCB7-2RYQQ</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 8 企业版</td>
+<td style="text-align:left">32JNW-9KQ84-P47T8-D8GGY-CWCK7</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 8 企业版 N</td>
+<td style="text-align:left">JMNMF-RHW7P-DMY6X-RF3DR-X2BQT</td>
+</tr>
+</tbody>
+</table>
+<h4 id="windows-7">Windows 7</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作系统版本</th>
+<th style="text-align:left">KMS 客户端安装程序密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Windows 7 专业版</td>
+<td style="text-align:left">FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 7 专业版 N</td>
+<td style="text-align:left">MRPKT-YTG23-K7D7T-X2JMM-QY7MG</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 7 专业版 E</td>
+<td style="text-align:left">W82YF-2Q76Y-63HXB-FGJG9-GF7QX</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 7 企业版</td>
+<td style="text-align:left">33PXH-7Y6KF-2VJC9-XBBR8-HVTHH</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 7 企业版 N</td>
+<td style="text-align:left">YDRBP-3D83W-TY26F-D46B2-XCKRJ</td>
+</tr>
+<tr>
+<td style="text-align:left">Windows 7 企业版 E</td>
+<td style="text-align:left">C29WB-22CC8-VJ326-GHFJW-H9DH4</td>
+</tr>
+</tbody>
+</table>
+<h2 id="office">Office</h2>
+<h3 id="office2019">Office2019</h3>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Office Professional Plus 2019</td>
+<td>NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP</td>
+</tr>
+<tr>
+<td>Office Standard 2019</td>
+<td>6NWWJ-YQWMR-QKGCB-6TMB3-9D9HK</td>
+</tr>
+<tr>
+<td>Project Professional 2019</td>
+<td>B4NPR-3FKK7-T2MBV-FRQ4W-PKD2B</td>
+</tr>
+<tr>
+<td>Project Standard 2019</td>
+<td>C4F7P-NCP8C-6CQPT-MQHV9-JXD2M</td>
+</tr>
+<tr>
+<td>Visio Professional 2019</td>
+<td>9BGNQ-K37YR-RQHF2-38RQ3-7VCBB</td>
+</tr>
+<tr>
+<td>Visio Standard 2019</td>
+<td>7TQNQ-K3YQQ-3PFH7-CCPPM-X4VQ2</td>
+</tr>
+<tr>
+<td>Access 2019</td>
+<td>9N9PT-27V4Y-VJ2PD-YXFMF-YTFQT</td>
+</tr>
+<tr>
+<td>Excel 2019</td>
+<td>TMJWT-YYNMB-3BKTF-644FC-RVXBD</td>
+</tr>
+<tr>
+<td>Outlook 2019</td>
+<td>7HD7K-N4PVK-BHBCQ-YWQRW-XW4VK</td>
+</tr>
+<tr>
+<td>PowerPoint 2019</td>
+<td>RRNCX-C64HY-W2MM7-MCH9G-TJHMQ</td>
+</tr>
+<tr>
+<td>Publisher 2019</td>
+<td>G2KWX-3NW6P-PY93R-JXK2T-C9Y9V</td>
+</tr>
+<tr>
+<td>Skype for Business 2019</td>
+<td>NCJ33-JHBBY-HTK98-MYCV8-HMKHJ</td>
+</tr>
+<tr>
+<td>Word 2019</td>
+<td>PBX3G-NWMT6-Q7XBW-PYJGG-WXD33</td>
+</tr>
+</tbody>
+</table>
+<h3 id="office2016">Office2016</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Product</strong></th>
+<th style="text-align:left"><strong>GVLK</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Office Professional Plus 2016</td>
+<td style="text-align:left">XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99</td>
+</tr>
+<tr>
+<td style="text-align:left">Office Standard 2016</td>
+<td style="text-align:left">JNRGM-WHDWX-FJJG3-K47QV-DRTFM</td>
+</tr>
+<tr>
+<td style="text-align:left">Project Professional 2016</td>
+<td style="text-align:left">YG9NW-3K39V-2T3HJ-93F3Q-G83KT</td>
+</tr>
+<tr>
+<td style="text-align:left">Project Standard 2016</td>
+<td style="text-align:left">GNFHQ-F6YQM-KQDGJ-327XX-KQBVC</td>
+</tr>
+<tr>
+<td style="text-align:left">Visio Professional 2016</td>
+<td style="text-align:left">PD3PC-RHNGV-FXJ29-8JK7D-RJRJK</td>
+</tr>
+<tr>
+<td style="text-align:left">Visio Standard 2016</td>
+<td style="text-align:left">7WHWN-4T7MP-G96JF-G33KR-W8GF4</td>
+</tr>
+<tr>
+<td style="text-align:left">Access 2016</td>
+<td style="text-align:left">GNH9Y-D2J4T-FJHGG-QRVH7-QPFDW</td>
+</tr>
+<tr>
+<td style="text-align:left">Excel 2016</td>
+<td style="text-align:left">9C2PK-NWTVB-JMPW8-BFT28-7FTBF</td>
+</tr>
+<tr>
+<td style="text-align:left">OneNote 2016</td>
+<td style="text-align:left">DR92N-9HTF2-97XKM-XW2WJ-XW3J6</td>
+</tr>
+<tr>
+<td style="text-align:left">Outlook 2016</td>
+<td style="text-align:left">R69KK-NTPKF-7M3Q4-QYBHW-6MT9B</td>
+</tr>
+<tr>
+<td style="text-align:left">PowerPoint 2016</td>
+<td style="text-align:left">J7MQP-HNJ4Y-WJ7YM-PFYGF-BY6C6</td>
+</tr>
+<tr>
+<td style="text-align:left">Publisher 2016</td>
+<td style="text-align:left">F47MM-N3XJP-TQXJ9-BP99D-8K837</td>
+</tr>
+<tr>
+<td style="text-align:left">Skype for Business 2016</td>
+<td style="text-align:left">869NQ-FJ69K-466HW-QYCP2-DDBV6</td>
+</tr>
+<tr>
+<td style="text-align:left">Word 2016</td>
+<td style="text-align:left">WXY84-JN2Q9-RBCCQ-3Q3J3-3PFJ6</td>
+</tr>
+</tbody>
+</table>
+<h3 id="office2013">Office2013</h3>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>KMS Client Setup Key (GVLK)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Office 2013 Professional Plus</td>
+<td>YC7DK-G2NP3-2QQC3-J6H88-GVGXT</td>
+</tr>
+<tr>
+<td>Office 2013 Standard</td>
+<td>KBKQT-2NMXY-JJWGP-M62JB-92CD4</td>
+</tr>
+<tr>
+<td>Project 2013 Professional</td>
+<td>FN8TT-7WMH6-2D4X9-M337T-2342K</td>
+</tr>
+<tr>
+<td>Project 2013 Standard</td>
+<td>6NTH3-CW976-3G3Y2-JK3TX-8QHTT</td>
+</tr>
+<tr>
+<td>Visio 2013 Professional</td>
+<td>C2FG9-N6J68-H8BTJ-BW3QX-RM3B3</td>
+</tr>
+<tr>
+<td>Visio 2013 Standard</td>
+<td>J484Y-4NKBF-W2HMG-DBMJC-PGWR7</td>
+</tr>
+<tr>
+<td>Access 2013</td>
+<td>NG2JY-H4JBT-HQXYP-78QH9-4JM2D</td>
+</tr>
+<tr>
+<td>Excel 2013</td>
+<td>VGPNG-Y7HQW-9RHP7-TKPV3-BG7GB</td>
+</tr>
+<tr>
+<td>InfoPath 2013</td>
+<td>DKT8B-N7VXH-D963P-Q4PHY-F8894</td>
+</tr>
+<tr>
+<td>Lync 2013</td>
+<td>2MG3G-3BNTT-3MFW9-KDQW3-TCK7R</td>
+</tr>
+<tr>
+<td>OneNote 2013</td>
+<td>TGN6P-8MMBC-37P2F-XHXXK-P34VW</td>
+</tr>
+<tr>
+<td>Outlook 2013</td>
+<td>QPN8Q-BJBTJ-334K3-93TGY-2PMBT</td>
+</tr>
+<tr>
+<td>PowerPoint 2013</td>
+<td>4NT99-8RJFH-Q2VDH-KYG2C-4RD4F</td>
+</tr>
+<tr>
+<td>Publisher 2013</td>
+<td>PN2WF-29XG2-T9HJ7-JQPJR-FCXK4</td>
+</tr>
+<tr>
+<td>Word 2013</td>
+<td>6Q7VD-NX8JD-WJ2VH-88V73-4GBJ7</td>
+</tr>
+</tbody>
+</table>
+<h3 id="office2010">Office2010</h3>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th>key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Office Professional Plus 2010</td>
+<td>VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB</td>
+</tr>
+<tr>
+<td>Office Standard 2010</td>
+<td>V7QKV-4XVVR-XYV4D-F7DFM-8R6BM</td>
+</tr>
+<tr>
+<td>Access 2010</td>
+<td>V7Y44-9T38C-R2VJK-666HK-T7DDX</td>
+</tr>
+<tr>
+<td>Excel 2010</td>
+<td>H62QG-HXVKF-PP4HP-66KMR-CW9BM</td>
+</tr>
+<tr>
+<td>SharePoint Workspace 2010</td>
+<td>QYYW6-QP4CB-MBV6G-HYMCJ-4T3J4</td>
+</tr>
+<tr>
+<td>InfoPath 2010</td>
+<td>K96W8-67RPQ-62T9Y-J8FQJ-BT37T</td>
+</tr>
+<tr>
+<td>OneNote 2010</td>
+<td>Q4Y4M-RHWJM-PY37F-MTKWH-D3XHX</td>
+</tr>
+<tr>
+<td>Outlook 2010</td>
+<td>7YDC2-CWM8M-RRTJC-8MDVC-X3DWQ</td>
+</tr>
+<tr>
+<td>PowerPoint 2010</td>
+<td>RC8FX-88JRY-3PF7C-X8P67-P4VTT</td>
+</tr>
+<tr>
+<td>Project Professional 2010</td>
+<td>YGX6F-PGV49-PGW3J-9BTGG-VHKC6</td>
+</tr>
+<tr>
+<td>Project Standard 2010</td>
+<td>4HP3K-88W3F-W2K3D-6677X-F9PGB</td>
+</tr>
+<tr>
+<td>Publisher 2010</td>
+<td>BFK7F-9MYHM-V68C7-DRQ66-83YTP</td>
+</tr>
+<tr>
+<td>Word 2010</td>
+<td>HVHB3-C6FV7-KQX9W-YQG79-CRY7T</td>
+</tr>
+<tr>
+<td>Visio Premium 2010</td>
+<td>D9DWC-HPYVV-JGF4P-BTWQB-WX8BJ</td>
+</tr>
+<tr>
+<td>Visio Professional 2010</td>
+<td>7MCW8-VRQVK-G677T-PDJCM-Q8TCP</td>
+</tr>
+<tr>
+<td>Visio Standard 2010</td>
+<td>767HD-QGMWX-8QTDB-9G3R2-KHFGJ</td>
+</tr>
+</tbody>
+</table>
+<h1 id="参考资料">参考资料</h1>
+<ul>
+<li><a href="https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys">Windows kms密钥</a></li>
+<li><a href="https://docs.microsoft.com/zh-cn/previous-versions/office/office-2010/ee624355(v=office.14)?redirectedfrom=MSDN">Office 2010 kms 密钥</a></li>
+<li><a href="https://docs.microsoft.com/en-us/DeployOffice/vlactivation/gvlks">Office2019&amp;2016 kms 密钥</a></li>
+<li><a href="https://teddysun.com/530.html">秋水逸冰一键安装 kms 服务脚本</a></li>
+<li><a href="https://www.51it.wang/ll/776">一句话激活 Windows Office 全套</a></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在Ubuntu下使用SSR或V2ray]]></title>
+        <id>https://fxxisme.github.io/zai-ubuntu-xia-shi-yong-ssr-huo-v2ray/</id>
+        <link href="https://fxxisme.github.io/zai-ubuntu-xia-shi-yong-ssr-huo-v2ray/">
+        </link>
+        <updated>2022-06-10T02:45:58.000Z</updated>
+        <content type="html"><![CDATA[<hr>
+<p><a href="https://www.zybuluo.com/hx/note/1102137">参考链接</a><br>
+<a href="https://doubibackup.com/3we1qxzj-4.html">搭建</a></p>
+<p>[TOC]</p>
+<h3 id="方法1">方法1</h3>
+<p>下载客户端</p>
+<ul>
+<li><a href="https://github.com/qingshuisiyuan/electron-ssr-backup/releases">electron-ssr</a></li>
+<li><a href="https://lanzous.com/ibzymna">备用链接</a></li>
+<li><a href="https://lanzous.com/ibzyspi">另外版本</a></li>
+</ul>
+<p>安装 <code>sudo dpkg -i electron-ssr_0.2.3_amd64.deb </code></p>
+<h3 id="方法2">方法2 :</h3>
+<p>下载和安装客户端（一个 shell 脚本）主要有以下几步：</p>
+<p>下载 SSR：wget http://www.texfox.com/ssr (已失效, 参考下文脚本)<br>
+将其加到 $PATH 环境变量里（不必和我一样的目录，只要保证 SSR 文件能在 PATH 里找到即可）：sudo mv ssr /usr/local/bin<br>
+加入可执行权限：sudo chmod 766 /usr/local/bin/ssr<br>
+安装：ssr install</p>
+<p>配置</p>
+<pre><code class="language-bash">ssr config
+</code></pre>
+<p>可能遇到的错误:</p>
+<pre><code class="language-bash">No protocol specified
+Unable to init server: 无法连接： 拒绝连接
+
+</code></pre>
+<p>解决办法:<br>
+这一步实际上就是配置服务器信息，所以既然这样不行，那我就直接找到修改对应的配置文件。这个配置文件的路径是 /usr/local/share/shadowsocksr/config.json，我们可以手动打开并将自己的服务器信息添加进去即可。<br>
+<a href="https://www.zybuluo.com/mdeditor#1613744">config 文件内容</a><br>
+启动 查看 和帮助</p>
+<pre><code class="language-bash">ssr start
+ssr stop
+ssr restart
+ssr help // 帮助
+</code></pre>
+<hr>
+<pre><code class="language-bash">#!/bin/bash
+# 作者：老徐
+# SSR免费分享网站（所有帐号均来源于网上别人的分享）：http://ss.pythonic.life
+# 源代码主页：https://github.com/the0demiurge
+# 访问https://github.com/the0demiurge/CharlesScripts/blob/master/charles/bin/ssr获取本脚本的最新版
+#使用方法：把该脚本放到$PATH里面并加入可执行权限就行（比如说放到/usr/local/bin）
+#首次使用输入ssr install后安装时会自动安装到/usr/local/share/shadowsocksr
+#输入ssr config进行配置，输入JSON格式的配置文件
+#输入ssr uninstall卸载
+#输入ssr help 现实帮助信息
+set -e
+if [ -z $EDITOR ];then
+    EDITOR=gedit
+fi
+
+help() {
+    echo ShadowSocksR python client tool
+    echo -e if you have not install ssr, please run \&quot;ssr install\&quot;
+    echo Usage:
+    echo -e &quot;\t&quot; ssr help
+    echo -e &quot;\t&quot; ssr config : edit config.json
+    echo -e &quot;\t&quot; ssr install : install shadowsocksr client
+    echo -e &quot;\t&quot; ssr uninstall : uninstall shadowsocksr client
+    echo -e &quot;\t&quot; ssr start : start the shadowsocks service
+    echo -e &quot;\t&quot; ssr stop : stop the shadowsocks service
+    echo -e &quot;\t&quot; ssr log : cat the log of shadowsocks
+}
+install_path=/usr/local/share/shadowsocksr
+if [ $# == 0 ];then
+    help
+    
+elif [ $1 == &quot;help&quot; ];then
+    help
+    
+elif [ $1 == &quot;install&quot; ];then
+    sudo wget www.texfox.com/shadowsocksr.zip
+    sudo unzip shadowsocksr.zip 
+    sudo mv shadowsocksr $install_path
+    sudo rm -rf shadowsocksr.zip 
+    # sudo git clone -b rm https://github.com/the0demiurge/not-in-use.git $install_path
+    
+elif [ $1 == &quot;uninstall&quot; ];then
+    echo &quot;Danger! are you to remove $install_path forever?(y/N)&quot;
+    read doit
+    if [ $doit == 'y' ];then
+        sudo rm -rvf $install_path
+    fi
+    
+elif [ $1 == &quot;config&quot; ];then
+    sudo $EDITOR $install_path/config.json
+    cd $install_path/shadowsocks/
+    sudo python local.py -d stop
+    sudo python local.py -d start
+    
+elif [ $1 == &quot;start&quot; ];then
+    cd $install_path/shadowsocks/
+    sudo python local.py -d start
+    
+elif [ $1 == &quot;stop&quot; ];then
+    cd $install_path/shadowsocks/
+    sudo python local.py -d stop
+    
+elif [ $1 == &quot;log&quot; ];then
+    tail -f /var/log/shadowsocks.log
+    
+elif [ $1 == &quot;shell&quot; ];then
+    cd $install_path/shadowsocks/
+    sudo python local.py $@
+fi
+</code></pre>
+<p>---配置---</p>
+<pre><code class="language-json">{
+    &quot;server&quot;: &quot;35.185.167.115&quot;,
+    &quot;server_ipv6&quot;: &quot;::&quot;,
+    &quot;server_port&quot;: 50087,
+    &quot;local_address&quot;: &quot;127.0.0.1&quot;,
+    &quot;local_port&quot;: 1081,
+
+    &quot;password&quot;: &quot;fyw123456&quot;,
+    &quot;method&quot;: &quot;aes-256-cfb&quot;,
+    &quot;protocol&quot;: &quot;auth_aes128_md5&quot;,
+    &quot;protocol_param&quot;: &quot;&quot;,
+    &quot;obfs&quot;: &quot;tls1.2_ticket_auth&quot;,
+    &quot;obfs_param&quot;: &quot;&quot;,
+    &quot;speed_limit_per_con&quot;: 0,
+    &quot;speed_limit_per_user&quot;: 0,
+
+    &quot;additional_ports&quot; : {}, // only works under multi-user mode
+    &quot;additional_ports_only&quot; : false, // only works under multi-user mode
+    &quot;timeout&quot;: 120,
+    &quot;udp_timeout&quot;: 60,
+    &quot;dns_ipv6&quot;: false,
+    &quot;connect_verbose_info&quot;: 0,
+    &quot;redirect&quot;: &quot;&quot;,
+    &quot;fast_open&quot;: false
+}
+
+</code></pre>
+<h2 id="安装步骤">安装步骤</h2>
+<ol>
+<li>bash go.sh</li>
+<li>编辑配置(替换ip和uuid)<br>
+<code>vim /etc/v2ray/config.json</code></li>
+<li>重启服务<br>
+<code>sudo systemctl v2ray restart</code></li>
+</ol>
+<h2 id="uuid">UUID</h2>
+<pre><code>/* 2020.05.30 更新 */
+21879e21-6dc9-eedd-0d9e-a91422bebb26 // 54.150.237.183
+43c81072-0a9b-506e-0980-a55c8207e0de // 35.236.184.106
+
+</code></pre>
+<h2 id="config_4">config_4</h2>
+<pre><code>{
+  &quot;policy&quot;: {
+    &quot;system&quot;: {
+      &quot;statsInboundUplink&quot;: true,
+      &quot;statsInboundDownlink&quot;: true
+    }
+  },
+  &quot;log&quot;: {
+    &quot;access&quot;: &quot;&quot;,
+    &quot;error&quot;: &quot;&quot;,
+    &quot;loglevel&quot;: &quot;warning&quot;
+  },
+  &quot;inbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;port&quot;: 10808,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;socks&quot;,
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [
+          &quot;http&quot;,
+          &quot;tls&quot;
+        ]
+      },
+      &quot;settings&quot;: {
+        &quot;auth&quot;: &quot;noauth&quot;,
+        &quot;udp&quot;: true,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: null,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;api&quot;,
+      &quot;port&quot;: 1439,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;sniffing&quot;: null,
+      &quot;settings&quot;: {
+        &quot;auth&quot;: null,
+        &quot;udp&quot;: false,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: &quot;127.0.0.1&quot;,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    }
+  ],
+  &quot;outbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;protocol&quot;: &quot;vmess&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: [
+          {
+            &quot;address&quot;: &quot;v2.fyw123.top&quot;,
+            &quot;port&quot;: 12315,
+            &quot;users&quot;: [
+              {
+                &quot;id&quot;: &quot;f9afec58-f850-4f74-83e9-5a924d2e3840&quot;,
+                &quot;alterId&quot;: 10,
+                &quot;email&quot;: &quot;t@t.tt&quot;,
+                &quot;security&quot;: &quot;auto&quot;
+              }
+            ]
+          }
+        ],
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: {
+        &quot;network&quot;: &quot;ws&quot;,
+        &quot;security&quot;: &quot;tls&quot;,
+        &quot;tlsSettings&quot;: {
+          &quot;allowInsecure&quot;: false,
+          &quot;serverName&quot;: &quot;v2.fyw123.top&quot;
+        },
+        &quot;tcpSettings&quot;: null,
+        &quot;kcpSettings&quot;: null,
+        &quot;wsSettings&quot;: {
+          &quot;connectionReuse&quot;: true,
+          &quot;path&quot;: &quot;/f3bdc94cf/&quot;,
+          &quot;headers&quot;: {
+            &quot;Host&quot;: &quot;v2.fyw123.top&quot;
+          }
+        },
+        &quot;httpSettings&quot;: null,
+        &quot;quicSettings&quot;: null
+      },
+      &quot;mux&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;concurrency&quot;: 8
+      }
+    },
+    {
+      &quot;tag&quot;: &quot;direct&quot;,
+      &quot;protocol&quot;: &quot;freedom&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;block&quot;,
+      &quot;protocol&quot;: &quot;blackhole&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: {
+          &quot;type&quot;: &quot;http&quot;
+        }
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    }
+  ],
+  &quot;stats&quot;: {},
+  &quot;api&quot;: {
+    &quot;tag&quot;: &quot;api&quot;,
+    &quot;services&quot;: [
+      &quot;StatsService&quot;
+    ]
+  },
+  &quot;dns&quot;: null,
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPIfNonMatch&quot;,
+    &quot;rules&quot;: [
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: [
+          &quot;api&quot;
+        ],
+        &quot;outboundTag&quot;: &quot;api&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;proxy&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: [
+          &quot;hyperapp.fun&quot;
+        ]
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:private&quot;
+        ],
+        &quot;domain&quot;: null
+      }
+    ]
+  }
+}
+
+</code></pre>
+<h2 id="config_3">config_3</h2>
+<pre><code>{
+  &quot;policy&quot;: {
+    &quot;system&quot;: {
+      &quot;statsInboundUplink&quot;: true,
+      &quot;statsInboundDownlink&quot;: true
+    }
+  },
+  &quot;log&quot;: {
+    &quot;access&quot;: &quot;&quot;,
+    &quot;error&quot;: &quot;&quot;,
+    &quot;loglevel&quot;: &quot;warning&quot;
+  },
+  &quot;inbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;port&quot;: 10808,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;socks&quot;,
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [
+          &quot;http&quot;,
+          &quot;tls&quot;
+        ]
+      },
+      &quot;settings&quot;: {
+        &quot;auth&quot;: &quot;noauth&quot;,
+        &quot;udp&quot;: true,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: null,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;api&quot;,
+      &quot;port&quot;: 1285,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;sniffing&quot;: null,
+      &quot;settings&quot;: {
+        &quot;auth&quot;: null,
+        &quot;udp&quot;: false,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: &quot;127.0.0.1&quot;,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    }
+  ],
+  &quot;outbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;protocol&quot;: &quot;vmess&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: [
+          {
+            &quot;address&quot;: &quot;35.236.184.106&quot;,
+            &quot;port&quot;: 30022,
+            &quot;users&quot;: [
+              {
+                &quot;id&quot;: &quot;43c81072-0a9b-506e-0980-a55c8207e0de&quot;,
+                &quot;alterId&quot;: 32,
+                &quot;email&quot;: &quot;t@t.tt&quot;,
+                &quot;security&quot;: &quot;auto&quot;
+              }
+            ]
+          }
+        ],
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: {
+        &quot;network&quot;: &quot;tcp&quot;,
+        &quot;security&quot;: null,
+        &quot;tlsSettings&quot;: null,
+        &quot;tcpSettings&quot;: null,
+        &quot;kcpSettings&quot;: null,
+        &quot;wsSettings&quot;: null,
+        &quot;httpSettings&quot;: null,
+        &quot;quicSettings&quot;: null
+      },
+      &quot;mux&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;concurrency&quot;: 8
+      }
+    },
+    {
+      &quot;tag&quot;: &quot;direct&quot;,
+      &quot;protocol&quot;: &quot;freedom&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;block&quot;,
+      &quot;protocol&quot;: &quot;blackhole&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: {
+          &quot;type&quot;: &quot;http&quot;
+        }
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    }
+  ],
+  &quot;stats&quot;: {},
+  &quot;api&quot;: {
+    &quot;tag&quot;: &quot;api&quot;,
+    &quot;services&quot;: [
+      &quot;StatsService&quot;
+    ]
+  },
+  &quot;dns&quot;: null,
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPIfNonMatch&quot;,
+    &quot;rules&quot;: [
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: [
+          &quot;api&quot;
+        ],
+        &quot;outboundTag&quot;: &quot;api&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;proxy&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: [
+          &quot;hyperapp.fun&quot;
+        ]
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:private&quot;
+        ],
+        &quot;domain&quot;: null
+      }
+    ]
+  }
+}
+</code></pre>
+<h2 id="config_2">config_2</h2>
+<pre><code>
+{
+  &quot;policy&quot;: {
+    &quot;system&quot;: {
+      &quot;statsInboundUplink&quot;: true,
+      &quot;statsInboundDownlink&quot;: true
+    }
+  },
+  &quot;log&quot;: {
+    &quot;access&quot;: &quot;&quot;,
+    &quot;error&quot;: &quot;&quot;,
+    &quot;loglevel&quot;: &quot;warning&quot;
+  },
+  &quot;inbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;port&quot;: 10808,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;socks&quot;,
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [
+          &quot;http&quot;,
+          &quot;tls&quot;
+        ]
+      },
+      &quot;settings&quot;: {
+        &quot;auth&quot;: &quot;noauth&quot;,
+        &quot;udp&quot;: true,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: null,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;api&quot;,
+      &quot;port&quot;: 2159,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;sniffing&quot;: null,
+      &quot;settings&quot;: {
+        &quot;auth&quot;: null,
+        &quot;udp&quot;: false,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: &quot;127.0.0.1&quot;,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    }
+  ],
+  &quot;outbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;protocol&quot;: &quot;vmess&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: [
+          {
+            &quot;address&quot;: &quot;v2.fywzbc.top&quot;,
+            &quot;port&quot;: 12315,
+            &quot;users&quot;: [
+              {
+                &quot;id&quot;: &quot;9b286d84-d5cc-4850-a710-7568849ec929&quot;,
+                &quot;alterId&quot;: 10,
+                &quot;email&quot;: &quot;t@t.tt&quot;,
+                &quot;security&quot;: &quot;auto&quot;
+              }
+            ]
+          }
+        ],
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: {
+        &quot;network&quot;: &quot;h2&quot;,
+        &quot;security&quot;: &quot;tls&quot;,
+        &quot;tlsSettings&quot;: {
+          &quot;allowInsecure&quot;: false,
+          &quot;serverName&quot;: null
+        },
+        &quot;tcpSettings&quot;: null,
+        &quot;kcpSettings&quot;: null,
+        &quot;wsSettings&quot;: null,
+        &quot;httpSettings&quot;: {
+          &quot;path&quot;: &quot;/878303bc51e/&quot;,
+          &quot;host&quot;: null
+        },
+        &quot;quicSettings&quot;: null
+      },
+      &quot;mux&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;concurrency&quot;: 8
+      }
+    },
+    {
+      &quot;tag&quot;: &quot;direct&quot;,
+      &quot;protocol&quot;: &quot;freedom&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;block&quot;,
+      &quot;protocol&quot;: &quot;blackhole&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: {
+          &quot;type&quot;: &quot;http&quot;
+        }
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    }
+  ],
+  &quot;stats&quot;: {},
+  &quot;api&quot;: {
+    &quot;tag&quot;: &quot;api&quot;,
+    &quot;services&quot;: [
+      &quot;StatsService&quot;
+    ]
+  },
+  &quot;dns&quot;: null,
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPIfNonMatch&quot;,
+    &quot;rules&quot;: [
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: [
+          &quot;api&quot;
+        ],
+        &quot;outboundTag&quot;: &quot;api&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;proxy&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: [
+          &quot;hyperapp.fun&quot;
+        ]
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:private&quot;
+        ],
+        &quot;domain&quot;: null
+      }
+    ]
+  }
+}
+
+</code></pre>
+<h2 id="config_1">config_1</h2>
+<pre><code>
+{
+  &quot;policy&quot;: {
+    &quot;system&quot;: {
+      &quot;statsInboundUplink&quot;: true,
+      &quot;statsInboundDownlink&quot;: true
+    }
+  },
+  &quot;log&quot;: {
+    &quot;access&quot;: &quot;&quot;,
+    &quot;error&quot;: &quot;&quot;,
+    &quot;loglevel&quot;: &quot;warning&quot;
+  },
+  &quot;inbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;port&quot;: 10808,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;socks&quot;,
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [
+          &quot;http&quot;,
+          &quot;tls&quot;
+        ]
+      },
+      &quot;settings&quot;: {
+        &quot;auth&quot;: &quot;noauth&quot;,
+        &quot;udp&quot;: true,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: null,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;api&quot;,
+      &quot;port&quot;: 14734,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;sniffing&quot;: null,
+      &quot;settings&quot;: {
+        &quot;auth&quot;: null,
+        &quot;udp&quot;: false,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: &quot;127.0.0.1&quot;,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    }
+  ],
+  &quot;outbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;protocol&quot;: &quot;vmess&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: [
+          {
+            &quot;address&quot;: &quot;v2.fyw123.top&quot;,
+            &quot;port&quot;: 12315,
+            &quot;users&quot;: [
+              {
+                &quot;id&quot;: &quot;f9afec58-f850-4f74-83e9-5a924d2e3840&quot;,
+                &quot;alterId&quot;: 10,
+                &quot;email&quot;: &quot;t@t.tt&quot;,
+                &quot;security&quot;: &quot;auto&quot;
+              }
+            ]
+          }
+        ],
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: {
+        &quot;network&quot;: &quot;ws&quot;,
+        &quot;security&quot;: &quot;tls&quot;,
+        &quot;tlsSettings&quot;: {
+          &quot;allowInsecure&quot;: false,
+          &quot;serverName&quot;: &quot;v2.fyw123.top&quot;
+        },
+        &quot;tcpSettings&quot;: null,
+        &quot;kcpSettings&quot;: null,
+        &quot;wsSettings&quot;: {
+          &quot;connectionReuse&quot;: true,
+          &quot;path&quot;: &quot;/f3bdc94cf/&quot;,
+          &quot;headers&quot;: {
+            &quot;Host&quot;: &quot;v2.fyw123.top&quot;
+          }
+        },
+        &quot;httpSettings&quot;: null,
+        &quot;quicSettings&quot;: null
+      },
+      &quot;mux&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;concurrency&quot;: 8
+      }
+    },
+    {
+      &quot;tag&quot;: &quot;direct&quot;,
+      &quot;protocol&quot;: &quot;freedom&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;block&quot;,
+      &quot;protocol&quot;: &quot;blackhole&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: {
+          &quot;type&quot;: &quot;http&quot;
+        }
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    }
+  ],
+  &quot;stats&quot;: {},
+  &quot;api&quot;: {
+    &quot;tag&quot;: &quot;api&quot;,
+    &quot;services&quot;: [
+      &quot;StatsService&quot;
+    ]
+  },
+  &quot;dns&quot;: null,
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPIfNonMatch&quot;,
+    &quot;rules&quot;: [
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: [
+          &quot;api&quot;
+        ],
+        &quot;outboundTag&quot;: &quot;api&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;proxy&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: [
+          &quot;hyperapp.fun&quot;
+        ]
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:private&quot;
+        ],
+        &quot;domain&quot;: null
+      }
+    ]
+  }
+}
+
+</code></pre>
+<h2 id="1v2ray-安装脚本">1.v2ray 安装脚本</h2>
+<pre><code class="language-sh">#!/bin/bash
+
+# This file is accessible as https://install.direct/go.sh
+# Original source is located at github.com/v2ray/v2ray-core/release/install-release.sh
+
+# If not specify, default meaning of return value:
+# 0: Success
+# 1: System error
+# 2: Application error
+# 3: Network error
+
+# CLI arguments
+PROXY=''
+HELP=''
+FORCE=''
+CHECK=''
+REMOVE=''
+VERSION=''
+VSRC_ROOT='/tmp/v2ray'
+EXTRACT_ONLY=''
+LOCAL=''
+LOCAL_INSTALL=''
+DIST_SRC='jsdelivr'
+ERROR_IF_UPTODATE=''
+
+CUR_VER=&quot;&quot;
+NEW_VER=&quot;&quot;
+VDIS=''
+ZIPFILE=&quot;/tmp/v2ray/v2ray.zip&quot;
+V2RAY_RUNNING=0
+
+CMD_INSTALL=&quot;&quot;
+CMD_UPDATE=&quot;&quot;
+SOFTWARE_UPDATED=0
+
+SYSTEMCTL_CMD=$(command -v systemctl 2&gt;/dev/null)
+SERVICE_CMD=$(command -v service 2&gt;/dev/null)
+
+#######color code########
+RED=&quot;31m&quot;      # Error message
+GREEN=&quot;32m&quot;    # Success message
+YELLOW=&quot;33m&quot;   # Warning message
+BLUE=&quot;36m&quot;     # Info message
+
+
+#########################
+while [[ $# &gt; 0 ]]; do
+    case &quot;$1&quot; in
+        -p|--proxy)
+        PROXY=&quot;-x ${2}&quot;
+        shift # past argument
+        ;;
+        -h|--help)
+        HELP=&quot;1&quot;
+        ;;
+        -f|--force)
+        FORCE=&quot;1&quot;
+        ;;
+        -c|--check)
+        CHECK=&quot;1&quot;
+        ;;
+        --remove)
+        REMOVE=&quot;1&quot;
+        ;;
+        --version)
+        VERSION=&quot;$2&quot;
+        shift
+        ;;
+        --extract)
+        VSRC_ROOT=&quot;$2&quot;
+        shift
+        ;;
+        --extractonly)
+        EXTRACT_ONLY=&quot;1&quot;
+        ;;
+        -l|--local)
+        LOCAL=&quot;$2&quot;
+        LOCAL_INSTALL=&quot;1&quot;
+        shift
+        ;;
+        --source)
+        DIST_SRC=&quot;$2&quot;
+        shift
+        ;;
+        --errifuptodate)
+        ERROR_IF_UPTODATE=&quot;1&quot;
+        ;;
+        *)
+                # unknown option
+        ;;
+    esac
+    shift # past argument or value
+done
+
+###############################
+colorEcho(){
+    echo -e &quot;\033[${1}${@:2}\033[0m&quot; 1&gt;&amp; 2
+}
+
+archAffix(){
+    case &quot;${1:-&quot;$(uname -m)&quot;}&quot; in
+        i686|i386)
+            echo '32'
+        ;;
+        x86_64|amd64)
+            echo '64'
+        ;;
+        *armv7*|armv6l)
+            echo 'arm'
+        ;;
+        *armv8*|aarch64)
+            echo 'arm64'
+        ;;
+        *mips64le*)
+            echo 'mips64le'
+        ;;
+        *mips64*)
+            echo 'mips64'
+        ;;
+        *mipsle*)
+            echo 'mipsle'
+        ;;
+        *mips*)
+            echo 'mips'
+        ;;
+        *s390x*)
+            echo 's390x'
+        ;;
+        ppc64le)
+            echo 'ppc64le'
+        ;;
+        ppc64)
+            echo 'ppc64'
+        ;;
+        *)
+            return 1
+        ;;
+    esac
+
+	return 0
+}
+
+zipRoot() {
+    unzip -lqq &quot;$1&quot; | awk -e '
+        NR == 1 {
+            prefix = $4;
+        }
+        NR != 1 {
+            prefix_len = length(prefix);
+            cur_len = length($4);
+
+            for (len = prefix_len &lt; cur_len ? prefix_len : cur_len; len &gt;= 1; len -= 1) {
+                sub_prefix = substr(prefix, 1, len);
+                sub_cur = substr($4, 1, len);
+
+                if (sub_prefix == sub_cur) {
+                    prefix = sub_prefix;
+                    break;
+                }
+            }
+
+            if (len == 0) {
+                prefix = &quot;&quot;;
+                nextfile;
+            }
+        }
+        END {
+            print prefix;
+        }
+    '
+}
+
+downloadV2Ray(){
+    rm -rf /tmp/v2ray
+    mkdir -p /tmp/v2ray
+    if [[ &quot;${DIST_SRC}&quot; == &quot;jsdelivr&quot; ]]; then
+        DOWNLOAD_LINK=&quot;https://cdn.jsdelivr.net/gh/v2ray/dist/v2ray-linux-${VDIS}.zip&quot;
+    else
+        DOWNLOAD_LINK=&quot;https://github.com/v2ray/v2ray-core/releases/download/${NEW_VER}/v2ray-linux-${VDIS}.zip&quot;
+    fi
+    colorEcho ${BLUE} &quot;Downloading V2Ray: ${DOWNLOAD_LINK}&quot;
+    curl ${PROXY} -L -H &quot;Cache-Control: no-cache&quot; -o ${ZIPFILE} ${DOWNLOAD_LINK}
+    if [ $? != 0 ];then
+        colorEcho ${RED} &quot;Failed to download! Please check your network or try again.&quot;
+        return 3
+    fi
+    return 0
+}
+
+installSoftware(){
+    COMPONENT=$1
+    if [[ -n `command -v $COMPONENT` ]]; then
+        return 0
+    fi
+
+    getPMT
+    if [[ $? -eq 1 ]]; then
+        colorEcho ${RED} &quot;The system package manager tool isn't APT or YUM, please install ${COMPONENT} manually.&quot;
+        return 1
+    fi
+    if [[ $SOFTWARE_UPDATED -eq 0 ]]; then
+        colorEcho ${BLUE} &quot;Updating software repo&quot;
+        $CMD_UPDATE
+        SOFTWARE_UPDATED=1
+    fi
+
+    colorEcho ${BLUE} &quot;Installing ${COMPONENT}&quot;
+    $CMD_INSTALL $COMPONENT
+    if [[ $? -ne 0 ]]; then
+        colorEcho ${RED} &quot;Failed to install ${COMPONENT}. Please install it manually.&quot;
+        return 1
+    fi
+    return 0
+}
+
+# return 1: not apt, yum, or zypper
+getPMT(){
+    if [[ -n `command -v apt-get` ]];then
+        CMD_INSTALL=&quot;apt-get -y -qq install&quot;
+        CMD_UPDATE=&quot;apt-get -qq update&quot;
+    elif [[ -n `command -v yum` ]]; then
+        CMD_INSTALL=&quot;yum -y -q install&quot;
+        CMD_UPDATE=&quot;yum -q makecache&quot;
+    elif [[ -n `command -v zypper` ]]; then
+        CMD_INSTALL=&quot;zypper -y install&quot;
+        CMD_UPDATE=&quot;zypper ref&quot;
+    else
+        return 1
+    fi
+    return 0
+}
+
+normalizeVersion() {
+    if [ -n &quot;$1&quot; ]; then
+        case &quot;$1&quot; in
+            v*)
+                echo &quot;$1&quot;
+            ;;
+            *)
+                echo &quot;v$1&quot;
+            ;;
+        esac
+    else
+        echo &quot;&quot;
+    fi
+}
+
+# 1: new V2Ray. 0: no. 2: not installed. 3: check failed. 4: don't check.
+getVersion(){
+    if [[ -n &quot;$VERSION&quot; ]]; then
+        NEW_VER=&quot;$(normalizeVersion &quot;$VERSION&quot;)&quot;
+        return 4
+    else
+        VER=&quot;$(/usr/bin/v2ray/v2ray -version 2&gt;/dev/null)&quot;
+        RETVAL=$?
+        CUR_VER=&quot;$(normalizeVersion &quot;$(echo &quot;$VER&quot; | head -n 1 | cut -d &quot; &quot; -f2)&quot;)&quot;
+        TAG_URL=&quot;https://api.github.com/repos/v2ray/v2ray-core/releases/latest&quot;
+        NEW_VER=&quot;$(normalizeVersion &quot;$(curl ${PROXY} -H &quot;Accept: application/json&quot; -H &quot;User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0&quot; -s &quot;${TAG_URL}&quot; --connect-timeout 10| grep 'tag_name' | cut -d\&quot; -f4)&quot;)&quot;
+
+        if [[ $? -ne 0 ]] || [[ $NEW_VER == &quot;&quot; ]]; then
+            colorEcho ${RED} &quot;Failed to fetch release information. Please check your network or try again.&quot;
+            return 3
+        elif [[ $RETVAL -ne 0 ]];then
+            return 2
+        elif [[ $NEW_VER != $CUR_VER ]];then
+            return 1
+        fi
+        return 0
+    fi
+}
+
+stopV2ray(){
+    colorEcho ${BLUE} &quot;Shutting down V2Ray service.&quot;
+    if [[ -n &quot;${SYSTEMCTL_CMD}&quot; ]] || [[ -f &quot;/lib/systemd/system/v2ray.service&quot; ]] || [[ -f &quot;/etc/systemd/system/v2ray.service&quot; ]]; then
+        ${SYSTEMCTL_CMD} stop v2ray
+    elif [[ -n &quot;${SERVICE_CMD}&quot; ]] || [[ -f &quot;/etc/init.d/v2ray&quot; ]]; then
+        ${SERVICE_CMD} v2ray stop
+    fi
+    if [[ $? -ne 0 ]]; then
+        colorEcho ${YELLOW} &quot;Failed to shutdown V2Ray service.&quot;
+        return 2
+    fi
+    return 0
+}
+
+startV2ray(){
+    if [ -n &quot;${SYSTEMCTL_CMD}&quot; ] &amp;&amp; [[ -f &quot;/lib/systemd/system/v2ray.service&quot; || -f &quot;/etc/systemd/system/v2ray.service&quot; ]]; then
+        ${SYSTEMCTL_CMD} start v2ray
+    elif [ -n &quot;${SERVICE_CMD}&quot; ] &amp;&amp; [ -f &quot;/etc/init.d/v2ray&quot; ]; then
+        ${SERVICE_CMD} v2ray start
+    fi
+    if [[ $? -ne 0 ]]; then
+        colorEcho ${YELLOW} &quot;Failed to start V2Ray service.&quot;
+        return 2
+    fi
+    return 0
+}
+
+installV2Ray(){
+    # Install V2Ray binary to /usr/bin/v2ray
+    mkdir -p '/etc/v2ray' '/var/log/v2ray' &amp;&amp; \
+    unzip -oj &quot;$1&quot; &quot;$2v2ray&quot; &quot;$2v2ctl&quot; &quot;$2geoip.dat&quot; &quot;$2geosite.dat&quot; -d '/usr/bin/v2ray' &amp;&amp; \
+    chmod +x '/usr/bin/v2ray/v2ray' '/usr/bin/v2ray/v2ctl' || {
+        colorEcho ${RED} &quot;Failed to copy V2Ray binary and resources.&quot;
+        return 1
+    }
+
+    # Install V2Ray server config to /etc/v2ray
+    if [ ! -f '/etc/v2ray/config.json' ]; then
+        local PORT=&quot;$(($RANDOM + 10000))&quot;
+        local UUID=&quot;$(cat '/proc/sys/kernel/random/uuid')&quot;
+
+        unzip -pq &quot;$1&quot; &quot;$2vpoint_vmess_freedom.json&quot; | \
+        sed -e &quot;s/10086/${PORT}/g; s/23ad6b10-8d1a-40f7-8ad0-e3e35cd38297/${UUID}/g;&quot; - &gt; \
+        '/etc/v2ray/config.json' || {
+            colorEcho ${YELLOW} &quot;Failed to create V2Ray configuration file. Please create it manually.&quot;
+            return 1
+        }
+
+        colorEcho ${BLUE} &quot;PORT:${PORT}&quot;
+        colorEcho ${BLUE} &quot;UUID:${UUID}&quot;
+    fi
+}
+
+
+installInitScript(){
+    if [[ -n &quot;${SYSTEMCTL_CMD}&quot; ]]; then
+        if [[ ! -f &quot;/etc/systemd/system/v2ray.service&quot; &amp;&amp; ! -f &quot;/lib/systemd/system/v2ray.service&quot; ]]; then
+            unzip -oj &quot;$1&quot; &quot;$2systemd/v2ray.service&quot; -d '/etc/systemd/system' &amp;&amp; \
+            systemctl enable v2ray.service
+        fi
+    elif [[ -n &quot;${SERVICE_CMD}&quot; ]] &amp;&amp; [[ ! -f &quot;/etc/init.d/v2ray&quot; ]]; then
+        installSoftware 'daemon' &amp;&amp; \
+        unzip -oj &quot;$1&quot; &quot;$2systemv/v2ray&quot; -d '/etc/init.d' &amp;&amp; \
+        chmod +x '/etc/init.d/v2ray' &amp;&amp; \
+        update-rc.d v2ray defaults
+    fi
+}
+
+Help(){
+  cat - 1&gt;&amp; 2 &lt;&lt; EOF
+./install-release.sh [-h] [-c] [--remove] [-p proxy] [-f] [--version vx.y.z] [-l file]
+  -h, --help            Show help
+  -p, --proxy           To download through a proxy server, use -p socks5://127.0.0.1:1080 or -p http://127.0.0.1:3128 etc
+  -f, --force           Force install
+      --version         Install a particular version, use --version v3.15
+  -l, --local           Install from a local file
+      --remove          Remove installed V2Ray
+  -c, --check           Check for update
+EOF
+}
+
+remove(){
+    if [[ -n &quot;${SYSTEMCTL_CMD}&quot; ]] &amp;&amp; [[ -f &quot;/etc/systemd/system/v2ray.service&quot; ]];then
+        if pgrep &quot;v2ray&quot; &gt; /dev/null ; then
+            stopV2ray
+        fi
+        systemctl disable v2ray.service
+        rm -rf &quot;/usr/bin/v2ray&quot; &quot;/etc/systemd/system/v2ray.service&quot;
+        if [[ $? -ne 0 ]]; then
+            colorEcho ${RED} &quot;Failed to remove V2Ray.&quot;
+            return 0
+        else
+            colorEcho ${GREEN} &quot;Removed V2Ray successfully.&quot;
+            colorEcho ${BLUE} &quot;If necessary, please remove configuration file and log file manually.&quot;
+            return 0
+        fi
+    elif [[ -n &quot;${SYSTEMCTL_CMD}&quot; ]] &amp;&amp; [[ -f &quot;/lib/systemd/system/v2ray.service&quot; ]];then
+        if pgrep &quot;v2ray&quot; &gt; /dev/null ; then
+            stopV2ray
+        fi
+        systemctl disable v2ray.service
+        rm -rf &quot;/usr/bin/v2ray&quot; &quot;/lib/systemd/system/v2ray.service&quot;
+        if [[ $? -ne 0 ]]; then
+            colorEcho ${RED} &quot;Failed to remove V2Ray.&quot;
+            return 0
+        else
+            colorEcho ${GREEN} &quot;Removed V2Ray successfully.&quot;
+            colorEcho ${BLUE} &quot;If necessary, please remove configuration file and log file manually.&quot;
+            return 0
+        fi
+    elif [[ -n &quot;${SERVICE_CMD}&quot; ]] &amp;&amp; [[ -f &quot;/etc/init.d/v2ray&quot; ]]; then
+        if pgrep &quot;v2ray&quot; &gt; /dev/null ; then
+            stopV2ray
+        fi
+        rm -rf &quot;/usr/bin/v2ray&quot; &quot;/etc/init.d/v2ray&quot;
+        if [[ $? -ne 0 ]]; then
+            colorEcho ${RED} &quot;Failed to remove V2Ray.&quot;
+            return 0
+        else
+            colorEcho ${GREEN} &quot;Removed V2Ray successfully.&quot;
+            colorEcho ${BLUE} &quot;If necessary, please remove configuration file and log file manually.&quot;
+            return 0
+        fi
+    else
+        colorEcho ${YELLOW} &quot;V2Ray not found.&quot;
+        return 0
+    fi
+}
+
+checkUpdate(){
+    echo &quot;Checking for update.&quot;
+    VERSION=&quot;&quot;
+    getVersion
+    RETVAL=&quot;$?&quot;
+    if [[ $RETVAL -eq 1 ]]; then
+        colorEcho ${BLUE} &quot;Found new version ${NEW_VER} for V2Ray.(Current version:$CUR_VER)&quot;
+    elif [[ $RETVAL -eq 0 ]]; then
+        colorEcho ${BLUE} &quot;No new version. Current version is ${NEW_VER}.&quot;
+    elif [[ $RETVAL -eq 2 ]]; then
+        colorEcho ${YELLOW} &quot;No V2Ray installed.&quot;
+        colorEcho ${BLUE} &quot;The newest version for V2Ray is ${NEW_VER}.&quot;
+    fi
+    return 0
+}
+
+main(){
+    #helping information
+    [[ &quot;$HELP&quot; == &quot;1&quot; ]] &amp;&amp; Help &amp;&amp; return
+    [[ &quot;$CHECK&quot; == &quot;1&quot; ]] &amp;&amp; checkUpdate &amp;&amp; return
+    [[ &quot;$REMOVE&quot; == &quot;1&quot; ]] &amp;&amp; remove &amp;&amp; return
+
+    local ARCH=$(uname -m)
+    VDIS=&quot;$(archAffix)&quot;
+
+    # extract local file
+    if [[ $LOCAL_INSTALL -eq 1 ]]; then
+        colorEcho ${YELLOW} &quot;Installing V2Ray via local file. Please make sure the file is a valid V2Ray package, as we are not able to determine that.&quot;
+        NEW_VER=local
+        rm -rf /tmp/v2ray
+        ZIPFILE=&quot;$LOCAL&quot;
+        #FILEVDIS=`ls /tmp/v2ray |grep v2ray-v |cut -d &quot;-&quot; -f4`
+        #SYSTEM=`ls /tmp/v2ray |grep v2ray-v |cut -d &quot;-&quot; -f3`
+        #if [[ ${SYSTEM} != &quot;linux&quot; ]]; then
+        #    colorEcho ${RED} &quot;The local V2Ray can not be installed in linux.&quot;
+        #    return 1
+        #elif [[ ${FILEVDIS} != ${VDIS} ]]; then
+        #    colorEcho ${RED} &quot;The local V2Ray can not be installed in ${ARCH} system.&quot;
+        #    return 1
+        #else
+        #    NEW_VER=`ls /tmp/v2ray |grep v2ray-v |cut -d &quot;-&quot; -f2`
+        #fi
+    else
+        # download via network and extract
+        installSoftware &quot;curl&quot; || return $?
+        getVersion
+        RETVAL=&quot;$?&quot;
+        if [[ $RETVAL == 0 ]] &amp;&amp; [[ &quot;$FORCE&quot; != &quot;1&quot; ]]; then
+            colorEcho ${BLUE} &quot;Latest version ${CUR_VER} is already installed.&quot;
+            if [ -n &quot;${ERROR_IF_UPTODATE}&quot; ]; then
+              return 10
+            fi
+            return
+        elif [[ $RETVAL == 3 ]]; then
+            return 3
+        else
+            colorEcho ${BLUE} &quot;Installing V2Ray ${NEW_VER} on ${ARCH}&quot;
+            downloadV2Ray || return $?
+        fi
+    fi
+
+    local ZIPROOT=&quot;$(zipRoot &quot;${ZIPFILE}&quot;)&quot;
+    installSoftware unzip || return $?
+
+    if [ -n &quot;${EXTRACT_ONLY}&quot; ]; then
+        colorEcho ${BLUE} &quot;Extracting V2Ray package to ${VSRC_ROOT}.&quot;
+
+        if unzip -o &quot;${ZIPFILE}&quot; -d ${VSRC_ROOT}; then
+            colorEcho ${GREEN} &quot;V2Ray extracted to ${VSRC_ROOT%/}${ZIPROOT:+/${ZIPROOT%/}}, and exiting...&quot;
+            return 0
+        else
+            colorEcho ${RED} &quot;Failed to extract V2Ray.&quot;
+            return 2
+        fi
+    fi
+
+    if pgrep &quot;v2ray&quot; &gt; /dev/null ; then
+        V2RAY_RUNNING=1
+        stopV2ray
+    fi
+    installV2Ray &quot;${ZIPFILE}&quot; &quot;${ZIPROOT}&quot; || return $?
+    installInitScript &quot;${ZIPFILE}&quot; &quot;${ZIPROOT}&quot; || return $?
+    if [[ ${V2RAY_RUNNING} -eq 1 ]];then
+        colorEcho ${BLUE} &quot;Restarting V2Ray service.&quot;
+        startV2ray
+    fi
+    colorEcho ${GREEN} &quot;V2Ray ${NEW_VER} is installed.&quot;
+    rm -rf /tmp/v2ray
+    return 0
+}
+
+main
+
+</code></pre>
+<h2 id="2v2ray-配置文件">2.v2ray 配置文件</h2>
+<pre><code class="language-json">// 配置文件
+{
+  &quot;inbounds&quot;: [{
+    &quot;port&quot;: 1080,  // SOCKS 代理端口，在浏览器中需配置代理并指向这个端口
+    &quot;listen&quot;: &quot;127.0.0.1&quot;,
+    &quot;protocol&quot;: &quot;socks&quot;,
+    &quot;settings&quot;: {
+      &quot;udp&quot;: true
+    }
+  }],
+  &quot;outbounds&quot;: [{
+    &quot;protocol&quot;: &quot;vmess&quot;,
+    &quot;settings&quot;: {
+      &quot;vnext&quot;: [{
+        &quot;address&quot;: &quot;35.236.165.167&quot;, // 服务器地址，请修改为你自己的服务器 ip 或域名
+        &quot;port&quot;: 50288,  // 服务器端口
+        &quot;users&quot;: [{ &quot;id&quot;: &quot;29ebe5f0-133a-a90b-00b7-dbe41a820b3d&quot; }]
+      }]
+    }
+  },{
+    &quot;protocol&quot;: &quot;freedom&quot;,
+    &quot;tag&quot;: &quot;direct&quot;,
+    &quot;settings&quot;: {}
+  }],
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPOnDemand&quot;,
+    &quot;rules&quot;: [{
+      &quot;type&quot;: &quot;field&quot;,
+      &quot;ip&quot;: [&quot;geoip:private&quot;],
+      &quot;outboundTag&quot;: &quot;direct&quot;
+    }]
+  }
+}
+</code></pre>
+<pre><code class="language-sh">{
+  &quot;policy&quot;: {
+    &quot;system&quot;: {
+      &quot;statsInboundUplink&quot;: true,
+      &quot;statsInboundDownlink&quot;: true
+    }
+  },
+  &quot;log&quot;: {
+    &quot;access&quot;: &quot;&quot;,
+    &quot;error&quot;: &quot;&quot;,
+    &quot;loglevel&quot;: &quot;warning&quot;
+  },
+  &quot;inbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;port&quot;: 10808,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;socks&quot;,
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [
+          &quot;http&quot;,
+          &quot;tls&quot;
+        ]
+      },
+      &quot;settings&quot;: {
+        &quot;auth&quot;: &quot;noauth&quot;,
+        &quot;udp&quot;: true,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: null,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;api&quot;,
+      &quot;port&quot;: 1508,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;sniffing&quot;: null,
+      &quot;settings&quot;: {
+        &quot;auth&quot;: null,
+        &quot;udp&quot;: false,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: &quot;127.0.0.1&quot;,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    }
+  ],
+  &quot;outbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;protocol&quot;: &quot;vmess&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: [
+          {
+            &quot;address&quot;: &quot;35.236.184.106&quot;,
+            &quot;port&quot;: 30021,
+            &quot;users&quot;: [
+              {
+                &quot;id&quot;: &quot;43c81072-0a9b-506e-0980-a55c8207e0de&quot;,
+                &quot;alterId&quot;: 32,
+                &quot;email&quot;: &quot;t@t.tt&quot;,
+                &quot;security&quot;: &quot;auto&quot;
+              }
+            ]
+          }
+        ],
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: {
+        &quot;network&quot;: &quot;tcp&quot;,
+        &quot;security&quot;: null,
+        &quot;tlsSettings&quot;: null,
+        &quot;tcpSettings&quot;: null,
+        &quot;kcpSettings&quot;: null,
+        &quot;wsSettings&quot;: null,
+        &quot;httpSettings&quot;: null,
+        &quot;quicSettings&quot;: null
+      },
+      &quot;mux&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;concurrency&quot;: 8
+      }
+    },
+    {
+      &quot;tag&quot;: &quot;direct&quot;,
+      &quot;protocol&quot;: &quot;freedom&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;block&quot;,
+      &quot;protocol&quot;: &quot;blackhole&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: {
+          &quot;type&quot;: &quot;http&quot;
+        }
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    }
+  ],
+  &quot;stats&quot;: {},
+  &quot;api&quot;: {
+    &quot;tag&quot;: &quot;api&quot;,
+    &quot;services&quot;: [
+      &quot;StatsService&quot;
+    ]
+  },
+  &quot;dns&quot;: null,
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPIfNonMatch&quot;,
+    &quot;rules&quot;: [
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: [
+          &quot;api&quot;
+        ],
+        &quot;outboundTag&quot;: &quot;api&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:private&quot;
+        ],
+        &quot;domain&quot;: null
+      }
+    ]
+  }
+}
+
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于使用Ubuntu 18.04一些优化]]></title>
+        <id>https://fxxisme.github.io/guan-yu-shi-yong-ubuntu-1804-yi-xie-you-hua/</id>
+        <link href="https://fxxisme.github.io/guan-yu-shi-yong-ubuntu-1804-yi-xie-you-hua/">
+        </link>
+        <updated>2022-06-10T02:43:15.000Z</updated>
+        <content type="html"><![CDATA[<hr>
+<h2 id="美化配置">美化配置</h2>
+<p>主题: Mojave-dark<br>
+鼠标: Oxy<br>
+图标: Pairus-Dark<br>
+壁纸: <a href="https://fxxisme.lanzous.com/iJTYYdcjjqj">链接</a><br>
+扩展: Dash to panel, Topicons plus, ubuntu appindicatiors, user themes</p>
+<h2 id="记录">记录</h2>
+<p>https://fxxisme.lanzous.com/icv6xwj<br>
+https://blog.csdn.net/baidu_36602427/article/details/86551862<br>
+https://zhuanlan.zhihu.com/p/61228593<br>
+https://wallhaven.cc/<br>
+https://zhuanlan.zhihu.com/p/37314255</p>
+<ul>
+<li>如果打算在 Ubuntu 18.04 LTS 中使用 GNOME Shell 桌面，可以每隔几个小时强制重启一次 - - GNOME Shell 以释放内存：</li>
+</ul>
+<pre><code>按下 Alt + F2
+键入字母'r'
+按 Enter/Return/let
+</code></pre>
+<p>New release '20.04.1 LTS' available.<br>
+Run 'do-release-upgrade' to upgrade to it.</p>
+<h2 id="ubuntu源">ubuntu源</h2>
+<pre><code>deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+
+# 预发布软件源，不建议启用
+# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu xenial stable
+# deb-src [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu xenial stable
+deb https://dl.winehq.org/wine-builds/ubuntu/ xenial main
+# deb-src https://dl.winehq.org/wine-builds/ubuntu/ xenial main
+
+</code></pre>
+<h2 id="ubuntu源2">ubuntu源2</h2>
+<pre><code>deb http://ftp.sjtu.edu.cn/ubuntu/ bionic main restricted universe multiverse
+deb http://ftp.sjtu.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+deb http://ftp.sjtu.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+deb http://ftp.sjtu.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+deb http://ftp.sjtu.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ bionic main restricted universe multiverse
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+# 预发布软件源，不建议启用
+# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu bionic stable
+# deb-src [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu xenial stable
+# deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main
+# deb-src https://dl.winehq.org/wine-builds/ubuntu/ bionic main
+# deb https://dl.winehq.org/wine-builds/ubuntu/ xenial main
+# deb-src https://dl.winehq.org/wine-builds/ubuntu/ xenial main
+
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[笔记本双网卡配置内网和外网]]></title>
+        <id>https://fxxisme.github.io/bi-ji-ben-shuang-wang-qia-pei-zhi-nei-wang-he-wai-wang/</id>
+        <link href="https://fxxisme.github.io/bi-ji-ben-shuang-wang-qia-pei-zhi-nei-wang-he-wai-wang/">
+        </link>
+        <updated>2022-06-10T02:41:43.000Z</updated>
+        <content type="html"><![CDATA[<hr>
+<p>描述: 笔记本连接WiFi和网线后可配置内网ip和url走内网 😊</p>
+<h3 id="适用场景">适用场景</h3>
+<ul>
+<li>内网使用人数多访问一些外网资源过慢</li>
+<li>有足够的流量 &amp; 一根有线</li>
+</ul>
+<h3 id="操作步骤">操作步骤</h3>
+<p><a href="https://juejin.cn/post/7007348857340166151#heading-7">参考链接</a></p>
+<h3 id="注意事项">注意事项</h3>
+<ul>
+<li>找出无线网和有线网的网关地址(A, B)，网关地址最后一位是1</li>
+<li>需要找到内网的dns地址</li>
+<li>设置跃点数</li>
+</ul>
+<h3 id="参考脚本">参考脚本</h3>
+<ul>
+<li>可以用脚本来切换路由，需要管理员权限执行</li>
+</ul>
+<pre><code>@echo off
+rem 切换外网网关
+route delete 0.0.0.0
+route -p add 0.0.0.0 mask 0.0.0.0 172.20.10.1
+
+rem 公司DNS1
+route delete 192.168.138.44
+route -p add 192.168.138.44 192.168.137.1
+rem 公司DNS2
+route delete 218.104.111.114
+route -p add 218.104.111.114 192.168.137.1
+
+rem 公司相关ip
+route delete 192.168.138.53
+route -p add 192.168.138.53 192.168.137.1
+rem ip地址需要手动添加 xxx....
+
+pause
+</code></pre>
+<pre><code>@echo off
+rem 切换为内网网关
+route delete 0.0.0.0
+route -p add 0.0.0.0 mask 0.0.0.0 192.168.137.1
+
+rem 公司DNS1
+route delete 192.168.138.44
+rem 公司DNS2
+route delete 218.104.111.114
+
+rem 公司相关ip
+route delete 192.168.138.53
+
+pause
+</code></pre>
+<pre><code>还原脚本主要是为了删除混合网络脚本中添加的路由，也可以拔网线重新来重置
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一些视频，磁力等网站汇总]]></title>
+        <id>https://fxxisme.github.io/yi-xie-shi-pin-ci-li-deng-wang-zhan-hui-zong/</id>
+        <link href="https://fxxisme.github.io/yi-xie-shi-pin-ci-li-deng-wang-zhan-hui-zong/">
+        </link>
+        <updated>2022-06-10T02:38:16.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="网站汇总">网站汇总</h3>
+<p>标签（空格分隔）： 网站</p>
+<hr>
+<p>[toc]</p>
+<hr>
+<h4 id="影音-20220715">影音 (2022.07.15)</h4>
+<p>鸭奈飞电影-专注于为国内用户提供免费的奈飞影视<br>
+https://netflix.mom/</p>
+<p>茶杯狐 Cupfox - 努力让找电影变得简单<br>
+https://cupfox.app/</p>
+<p>妮可动漫<br>
+http://www.nicotv.me/</p>
+<p>努努影院<br>
+https://www.nunuyy1.org/<br>
+555电影<br>
+https://555dy.fun/<br>
+BTNull - 无名小站<br>
+https://www.btnull.org/<br>
+片库<br>
+https://www.piaku.cc/<br>
+泥巴影院<br>
+https://www.mudvod.tv<br>
+奇粹影视<br>
+http://www.blssv.com/<br>
+独播库<br>
+https://duboku.ru/<br>
+大米星球<br>
+https://www.dmxq.fun/<br>
+NO视频<br>
+https://www.novipnoad.com/<br>
+哔嘀影视（简称BDYS）<br>
+https://www.btbdys.com/<br>
+LIBVIO<br>
+https://www.libvio.me/<br>
+城市电影<br>
+https://www.citydy.com/<br>
+达达龟<br>
+https://www.dadagui.com/<br>
+COKEMV影视<br>
+https://cokemv.me/<br>
+追剧啦<br>
+https://www.zhuiju.la/<br>
+厂长资源<br>
+https://www.czspp.com/</p>
+<p>老豆瓣 - 影视云擎<br>
+https://www.laodouban.com/</p>
+<h4 id="免费在线影视网址汇总">免费在线影视网址汇总</h4>
+<p>https://yanetflix.com/<br>
+CCTV节目官网：http://tv.cctv.com/<br>
+团长资源 —-  https://tzfile.com/<br>
+低端电影 —- http://ddrk.me/category/movie<br>
+泡饭网 —-  http://www.paofans.net/<br>
+电影天堂 —-  http://www.dyttv.com/<br>
+追剧吧 —-  http://www.huaxiab.com/<br>
+皮皮影视网 —-  http://www.p8ys.com/index.php<br>
+一路看吧 —-  http://www.16kanba.com/<br>
+1090影视 —- https://1090ys.com<br>
+碟影世界 —- http://www.952780.com/<br>
+播  王 —- https://bowang.tv/<br>
+吾爱看电影 —-  http://www.52kkpp.com/<br>
+魔力电影网 —- https://www.mldy.cc/<br>
+力古拉斯 —- http://xiaosp.ml/<br>
+胖子视频 —- https://m.pangzikan.com/<br>
+完美看看 —- https://www.wanmeikk.me/<br>
+片   吧 —- http://pbpb.tv<br>
+看看屋 —- https://www.kankanwu.com<br>
+达达兔 —- https://v.jlszyy.cc<br>
+太初电影 —- https://www.tcmove.com<br>
+悟空视频 —- https://www.wukongshipin.com<br>
+豌豆影视 —- https://www.wandouys.com<br>
+海狸影视 —- http://www.hailiys.com<br>
+ADC电影 —- https://www.adcmove.com<br>
+海兔影院 —- http://www.haitudy.com/<br>
+77看片    —- https://www.77kpp.com<br>
+新飞影视 —- https://www.9dan.cc<br>
+盐酥鸡    —- https://www.ysuzy.com<br>
+蓝鲸电影 —-  https://www.ljmovie.com/<br>
+片库：https://www.pianku.tv/<br>
+七七影院：http://www.tv772.com/<br>
+旋风影院：https://miao101.com/<br>
+哔嘀影视：https://bde4.com/<br>
+南柯电影网：http://www.nkdyw.com/<br>
+中国高清网：https://www.cnmkv.com<br>
+4K影院：https://www.i8k.cc<br>
+暮光影视：https://www.muguangys.com<br>
+嘀哩影视：http://diliktv.com<br>
+555影视：https://www.o8tv.com<br>
+大师兄影视：https://zz.ci<br>
+剧好看：https://www.juhaokan.cc<br>
+COKEMV影视：https://cokemv.cn<br>
+闪电影视（原1080）：https://www.ak1080.com<br>
+泡饭影视：https://www.chapaofan.com<br>
+麻豆影院（原Youtu影视）：https://www.aofuo.com<br>
+高清MP4吧：http://www.mp4ba.cc<br>
+6V电影：https://www.66s.cc<br>
+独播库：https://www.duboku.tv<br>
+低端影视：https://ddrk.me<br>
+团长资源：https://www.tzfile.com<br>
+哔嘀影视：https://www.bde4.cc<br>
+高分影院：https://www.gaofen1.com<br>
+FIX字幕侠：http://www.zimuxia.cn/#4<br>
+电影先生：http://dianying.im<br>
+SK电影：https://sk.ncer.top<br>
+素白白影视：https://www.subaibai.com<br>
+新电影：https://www.dianying.co<br>
+NO视频：https://www.novipnoad.com<br>
+看片狂人：https://www.kpkuang.com<br>
+蛋蛋赞影院：https://www.dandanzan.com<br>
+聚合影视：https://v.storming.ltd</p>
+<h4 id="在线欧美剧网站汇总">在线欧美剧网站汇总</h4>
+<p>美剧鸟 —- http://www.meijuniao.com<br>
+91美剧  —- https://91mjw.com<br>
+爱美剧  —- https://www.meijui.com/<br>
+剧   迷  —- https://gimy.co/<br>
+奈非影视 —- https://www.nfmovies.com<br>
+嘀哩哩  —- https://www.dililitv.com<br>
+No 视频  —- http://www.novipnoad.com<br>
+人人影视：http://www.zmz2019.com/<br>
+美剧天堂：https://m.meijutt.tv/<br>
+美剧星球：https://www.meijuxq.com/</p>
+<h4 id="在线动漫网站汇总">在线动漫网站汇总</h4>
+<p>哔哩哔哩：https://www.bilibili.com/<br>
+ZzzFun动漫视频网：http://www.zzzfun.com/<br>
+哈哩哈哩动漫：http://halihali.li/<br>
+AGE动漫  —- https://www.agefans.tv/<br>
+怡萱动漫 —- http://www.yxdm.tv/<br>
+奇米奇米 —- http://www.qimiqimi.co/<br>
+樱花动漫 —-  http://www.yhdm.tv/<br>
+花瓣动漫 —-  https://www.huabandm.com/<br>
+嘀哩嘀哩 —-  http://www.dilidili.name/<br>
+兜兜动漫 —-  https://www.doudoudm.site/<br>
+妮可动漫 —-  http://www.nicotv.me/<br>
+独播库：https://www.duboku.co/vodtype/4.html</p>
+<h4 id="在线国语版视频站">在线国语版视频站</h4>
+<p>9亿看看：https://www.9ekk.com/</p>
+<h4 id="在线日韩网站汇总">在线日韩网站汇总</h4>
+<p>日剧网：http://www.riju.tv/<br>
+日剧TV    —- https://www.rijutv.com<br>
+韩剧TV    —- http://hanju.koudaibaobao.com<br>
+热播日剧  —- https://www.reboriju.com<br>
+蜗牛视频  —- http://www.snailok.com<br>
+韩饭网     —- https://www.hanfan.cc<br>
+韩粉乐园  —- http://www.hjzlg.com<br>
+嘟嘟韩剧  —- http://www.duduhanju.net<br>
+阿房影视：https://epang.ml</p>
+<h4 id="在线泰剧网站">在线泰剧网站</h4>
+<p>97泰剧网：https://www.97taiju.com/<br>
+泰剧迷网：https://www.taijumi.cc/</p>
+<h4 id="vip视频解析">VIP视频解析</h4>
+<p>北极XS 视频解析：http://beijixs.cn/<br>
+116kan智能解析：https://vip.116kan.com/<br>
+365t在線免費解析觀看系統：http://vip.365tol.top/<br>
+BL智能解析：https://vip.bljiex.com/<br>
+kingtail智能解析：https://jx.kingtail.xyz/?url=<br>
+https://jsap.attakids.com/?url=<br>
+https://api.lnwu.net/?url=<br>
+91视频解析：https://www.91jxs.com/jiexi/?url=<br>
+https://api.jhys.top/?url=<br>
+OK解析：http://www.okjx.cc/ceshi/<br>
+思古视频服务：https://api.sigujx.com/?url=<br>
+618G免费解析：https://jx.618g.com/<br>
+小野马解析：https://www.xymav.com/?url=<br>
+诺讯智能解析：https://www.nxflv.com/?url=<br>
+热搜视频：https://v.resoumen.com/<br>
+全民解析：http://qmaile.com/<br>
+聚神铺vip解析：http://www.jspoo.com/vip.html<br>
+Yun Parse视频云解析：http://120.27.155.106/<br>
+爱看解析：http://tv.vipsli.com/<br>
+TVB云播全网VIP视频解析：http://vip.hktvyb.com/<br>
+Playm3u8解析：https://www.playm3u8.cn/jiexi.php?url=<br>
+千亿解析：https://www.qianyicp.com/jiexi/index.php?url=</p>
+<h4 id="磁力搜索网站">磁力搜索网站</h4>
+<p>#####国内磁力搜索<br>
+磁力爬永久地址：https://www.cilipa.com（被墙）<br>
+备用域名：https://www.cilipapa.com<br>
+地址发布页：https://www.cilipa.net<br>
+熊猫磁力：https://xiongmao23.icu/<br>
+地址发布页：https://xiongmaocl.fun（被墙）<br>
+磁力巴士永久地址：http://www.bvbus.com<br>
+磁力狗：http://ciligou.app/<br>
+备用地址：http://0200.org<br>
+BT-btt永久地址： https://u3c3.com/ （被墙）<br>
+备用地址：https://u9c9.com/ https://u7c7.com/<br>
+地址发布页：https://github.com/u3c3/bt-btt<br>
+Push BT平台：http://m.pushbt.top/ 只有用手机浏览器才显示网站内容<br>
+网址防丢失邮箱pushbtwebsite@gmail.com<br>
+BT1207：https://bt1207.fun/<br>
+备用地址：https://bt1207cl.icu/<br>
+SkrBT： https://sktbtcil.buzz/<br>
+备用地址：https://skrbt.fun/<br>
+MAG磁力站永久地址： http: //cili001.com<br>
+Sobt永久地址：http://sobt.me/<br>
+备用地址：http://www.sobt5.pw/<br>
+Btdad： http://www.btdad.xyz/<br>
+备用地址：http://www.btdad.life<br>
+雨花阁地址发布页1 ：https://www.yuhuage.club/<br>
+地址发布页2：https://www.btcherries.xyz/<br>
+备用地址发布页：https://github.com/yuhuage/dizhi/blob/master/README.md<br>
+发邮件到dxj880@gmail.com获取最新地址<br>
+磁力宝： http://www.clb.biz/<br>
+备用地址：http://9321.org<br>
+巴士资源搜索：http://5338.org<br>
+磁力天堂永久地址：https://www.cltt.me<br>
+Bthub： https://bthub.site/ （被墙）<br>
+备用地址：https://bth01278213.monster/<br>
+地址发布页1 ：https://github.com/fwonggh/Bthub<br>
+地址发布页2：https://gitlab.com/fwonggh/Bthub/-/blob/master/README.md<br>
+btfox：http://btfox0.net<br>
+BT精灵： https://btring.com<br>
+magnetW： https://github.com/xiandanin/magnetW<br>
+聚合搜索，目前只更新软件版，win和mac下载<br>
+老王磁力： https://laowang.fun/</p>
+<h5 id="国外磁力搜索">国外磁力搜索</h5>
+<p>RARBG： https://rarbgaccess.org/<br>
+BTSOW： https://btos.pw/<br>
+Data-Iceberg： https://data-iceberg.com/<br>
+AIO Search： https://www.aiosearch.com/ 磁力聚合搜索网站<br>
+东京图书馆： https://www.tokyotosho.info/<br>
+海盗湾： https://thepiratebays.info/ 永久发布页<br>
+ØMagnet：https://0mag.net 正经资源搜不到</p>
+<h5 id="磁力下载站">磁力下载站</h5>
+<p>MP4吧： http://mp4ba.cc/<br>
+提供下载方式：磁力链接、BT种子、百度网盘<br>
+人人影视：http://www.zmz2019.com/<br>
+磁力、电驴<br>
+美剧天堂：https://www.meijutt.com/<br>
+磁力、电驴<br>
+一站搜： http://videos.yizhansou.com/<br>
+磁力、电驴<br>
+片源网：http://www.pianyuan.la/<br>
+BT、磁力<br>
+中国高清网：http://gaoqing.la/<br>
+磁力</p>
+<h5 id="种子下载站">种子下载站</h5>
+<p>耐卡影音论坛： http://mcar.co/<br>
+BT种子、网盘<br>
+BT之家： https://www.88btbtt.com/<br>
+BT种子</p>
+<h5 id="电驴下载站">电驴下载站</h5>
+<p>电波字幕组： http://dbfansub.com/<br>
+电驴、网盘。提供单独字幕下载</p>
+<p>公共 BitTorrent Tracker<br>
+下载前记得更新下公共 BitTorrent Tracker 列表</p>
+<p>使用说明<br>
+https://github.com/XIU2/TrackersListCollection/blob/master/README-ZH.md<br>
+Aria2 Tracker<br>
+https://trackerslist.com/all_aria2.txt<br>
+BitTorrent Tracker<br>
+https://trackerslist.com/all.txt</p>
+<p>####小说网站<br>
+https://www.shizongzui8.com/</p>
+<p>####阿里云盘资源网站</p>
+<p>https://oook.xyz/<br>
+https://pan.yuankongjian.com/</p>
+<h4 id="磁力搜索">磁力搜索</h4>
+<pre><code>国内磁力搜索
+磁力爬永久地址：https://www.cilipa.com（被墙）
+    备用域名：https://www.cilipapa.com
+    地址发布页：https://www.cilipa.net
+熊猫磁力：https://xiongmao23.icu/
+    地址发布页：https://xiongmaocl.fun（被墙）
+磁力巴士永久地址：http://www.bvbus.com
+磁力狗：http://ciligou.app/
+    备用地址：http://0200.org
+BT-btt永久地址： https://u3c3.com/ （被墙）
+    备用地址：https://u9c9.com/ https://u7c7.com/
+    地址发布页：https://github.com/u3c3/bt-btt
+Push BT平台：http://m.pushbt.top/ 只有用手机浏览器才显示网站内容
+    网址防丢失邮箱pushbtwebsite@gmail.com
+BT1207：https://bt1207.fun/
+    备用地址：https://bt1207cl.icu/
+SkrBT： https://sktbtcil.buzz/
+    备用地址：https://skrbt.fun/
+MAG磁力站永久地址： http: //cili001.com
+Sobt永久地址：http://sobt.me/
+    备用地址：http://www.sobt5.pw/
+Btdad： http://www.btdad.xyz/
+    备用地址：http://www.btdad.life
+雨花阁地址发布页1 ：https://www.yuhuage.club/
+    地址发布页2：https://www.btcherries.xyz/
+    备用地址发布页：https://github.com/yuhuage/dizhi/blob/master/README.md
+    发邮件到dxj880@gmail.com获取最新地址
+磁力宝： http://www.clb.biz/
+    备用地址：http://9321.org
+巴士资源搜索：http://5338.org
+磁力天堂永久地址：https://www.cltt.me
+Bthub： https://bthub.site/ （被墙）
+    备用地址：https://bth01278213.monster/
+    地址发布页1 ：https://github.com/fwonggh/Bthub
+    地址发布页2：https://gitlab.com/fwonggh/Bthub/-/blob/master/README.md
+btfox：http://btfox0.net
+BT精灵： https://btring.com
+magnetW： https://github.com/xiandanin/magnetW
+聚合搜索，目前只更新软件版，win和mac下载
+老王磁力： https://laowang.fun/
+
+国外磁力搜索
+RARBG： https://rarbgaccess.org/
+BTSOW： https://btos.pw/
+Data-Iceberg： https://data-iceberg.com/
+AIO Search： https://www.aiosearch.com/ 磁力聚合搜索网站
+东京图书馆： https://www.tokyotosho.info/
+海盗湾： https://thepiratebays.info/ 永久发布页
+ØMagnet：https://0mag.net 正经资源搜不到
+
+磁力下载站
+MP4吧： http://mp4ba.cc/
+提供下载方式：磁力链接、BT种子、百度网盘
+人人影视：http://www.zmz2019.com/
+磁力、电驴
+美剧天堂：https://www.meijutt.com/
+磁力、电驴
+一站搜： http://videos.yizhansou.com/
+磁力、电驴
+片源网：http://www.pianyuan.la/
+BT、磁力
+中国高清网：http://gaoqing.la/
+磁力
+
+种子下载站
+耐卡影音论坛： http://mcar.co/
+BT种子、网盘
+BT之家： https://www.88btbtt.com/
+BT种子
+
+电驴下载站
+电波字幕组： http://dbfansub.com/
+电驴、网盘。提供单独字幕下载
+
+公共 BitTorrent Tracker
+下载前记得更新下公共 BitTorrent Tracker 列表
+
+使用说明
+https://github.com/XIU2/TrackersListCollection/blob/master/README-ZH.md
+Aria2 Tracker
+https://trackerslist.com/all_aria2.txt
+BitTorrent Tracker
+https://trackerslist.com/all.txt
+</code></pre>
+<h3 id="素材网站">素材网站</h3>
+<p>25个资源网站，让你永久告别资源付费<br>
+视频类素材：mixkit、videvo、Pexels videvo、33台词网和找台词、预告片世界<br>
+图片类素材：Pixabay、ColorHub、Hippopx、LOGO神器<br>
+音频素材：FreePD、淘声网、耳聆网<br>
+PPT素材：51PPT、优品PPT、OfficePlus<br>
+配色素材：中国色、trianglify、colorhunt<br>
+效率工具：remove bg、Bigjpg、docsmall、pdfpai、magicm ockups<br>
+全能导航：奇迹秀、万能导航</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[遇到的问题]]></title>
+        <id>https://fxxisme.github.io/yu-dao-de-wen-ti/</id>
+        <link href="https://fxxisme.github.io/yu-dao-de-wen-ti/">
+        </link>
+        <updated>2022-06-10T02:14:22.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>👏  工作和日常中遇到某些小问题，记录在这里，后续再次遇到方便查询</p>
+<!-- more -->
+<p>🔓🔓🔓🔓🔓🔓🔓🔓🔓</p>
+<ul>
+<li>目录
+<ul>
+<li><a href="#windows-%E5%8F%B3%E9%94%AEbush-here-%E5%A4%B1%E6%95%88">Windows 右键bush here 失效</a></li>
+<li><a href="#vscode%E6%8F%92%E4%BB%B6gitlines%E4%B8%8D%E6%98%BE%E7%A4%BA">vscode插件gitlines不显示</a></li>
+<li><a href="#%E5%BC%BA%E5%88%B6%E6%8B%89%E5%8F%96%E4%BB%A3%E7%A0%81">强制拉取代码</a></li>
+<li><a href="#scp%E5%91%BD%E4%BB%A4%E4%BB%8E%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6-%E7%A7%98%E9%92%A5%E6%96%B9%E5%BC%8F">scp命令从远程下载文件</a></li>
+<li><a href="#%E6%A0%91%E5%BD%A2%E6%89%81%E5%B9%B3">树形扁平</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="windows-右键bush-here-失效">Windows 右键bush here 失效</h2>
+<ul>
+<li>运行regedit.exe进入注册表，在HKEY_CLASSES_ROOT\Directory\Background\shell中进行设置。</li>
+<li>新建项Git Bush Here，此时你可以看到在桌面右键会出现“Git Bush Here”菜单。</li>
+<li>添加Git Bush Icon，在第一步的新建项Git Bush Here下，新建字符串值Icon，然后编辑该值为“C:\Program Files\Git\mingw64\share\git\git-for-windows.ico”，你需要根据你安装的Git 目录进行配置修改。完成此步后，你会发现右键菜单“Git Bush Here”会多出一个Icon。</li>
+<li>添加Command项。在“Git Bush Here”下再新建项“Command”，将其默认值改为“C:\Program Files\Git\bin\bash.exe --login -i”，这样，你就可以通过右键菜单的方式快速进入Git命令行工具，进行代码版本管理。</li>
+</ul>
+<h2 id="vscode插件gitlines不显示">vscode插件gitlines不显示</h2>
+<pre><code>ctrl + shift + p 
+
+&quot;gitlines&quot;
+apply view layout
+</code></pre>
+<h2 id="强制拉取代码">强制拉取代码</h2>
+<pre><code>git fetch --all
+git reset --hard origin/master
+git pull //可以省略
+</code></pre>
+<h2 id="scp命令从远程下载文件-秘钥方式">scp命令从远程下载文件 (秘钥方式)</h2>
+<pre><code>// 下载单个文件
+scp -i ~/ssh.key root@IP:data/ ./
+// 下载目录
+scp -r -i ~/ssh.key root@IP:data/ ./
+
+// 上传时本地目录和远程目录顺序调换即可
+</code></pre>
+<h2 id="树形扁平">树形&lt;=&gt;扁平</h2>
+<pre><code>/**
+ * @function 扁平化结构数据转换为树形结构数据
+ * @param {*} obj 源数据
+ * @param {*} childrenKey 需要遍历的子数据的key
+ * @param {*} parentId 用于比较的父级id的key
+ * @param {*} childId 子级中用于和父级比较的key
+ * @returns 树结构
+ */
+export function formatTree(obj, childrenKey = 'children', parentId = 'gid', childId = 'parentGid') {
+	let copyedObj = JSON.parse(JSON.stringify(obj)) //深拷贝源数据
+	return copyedObj.filter(parent =&gt; {
+		parent.id = parent[parentId]
+		let findChildren = copyedObj.filter(child =&gt; {
+			return parent[parentId] == child[childId]
+		})
+		findChildren.length &gt; 0 ? parent[childrenKey] = findChildren : parent[childrenKey] = []
+		return !parent[childId] //返回顶层，依据实际情况判断这里的返回值
+	})
+}
+
+/**
+ * @function 树形结构转为扁平结构
+ * @param {*} data 源数据
+ * @param {*} childrenKey 需要遍历的子数据的key
+ * @returns 树结构
+ */
+export function formatList(data, childrenKey = 'childs') {
+	return data.reduce((res, node) =&gt; {
+		res.push(node)
+		if (node[childrenKey]) res = res.concat(formatList(node[childrenKey], childrenKey));
+		return res
+	}, [])
+}
+</code></pre>
+]]></content>
+    </entry>
+</feed>

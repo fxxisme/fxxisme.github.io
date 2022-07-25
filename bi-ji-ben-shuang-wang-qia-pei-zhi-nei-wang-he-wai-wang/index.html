@@ -1,0 +1,233 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>笔记本双网卡配置内网和外网 | 社会主义后花园</title>
+
+<link rel="shortcut icon" href="https://fxxisme.github.io/favicon.ico?v=1658713138574">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fxxisme.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            社会主义后花园
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1658713138574" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    笔记本双网卡配置内网和外网
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2022-06-10 10:41:43 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <hr>
+<p>描述: 笔记本连接WiFi和网线后可配置内网ip和url走内网 😊</p>
+<h3 id="适用场景">适用场景</h3>
+<ul>
+<li>内网使用人数多访问一些外网资源过慢</li>
+<li>有足够的流量 &amp; 一根有线</li>
+</ul>
+<h3 id="操作步骤">操作步骤</h3>
+<p><a href="https://juejin.cn/post/7007348857340166151#heading-7">参考链接</a></p>
+<h3 id="注意事项">注意事项</h3>
+<ul>
+<li>找出无线网和有线网的网关地址(A, B)，网关地址最后一位是1</li>
+<li>需要找到内网的dns地址</li>
+<li>设置跃点数</li>
+</ul>
+<h3 id="参考脚本">参考脚本</h3>
+<ul>
+<li>可以用脚本来切换路由，需要管理员权限执行</li>
+</ul>
+<pre><code>@echo off
+rem 切换外网网关
+route delete 0.0.0.0
+route -p add 0.0.0.0 mask 0.0.0.0 172.20.10.1
+
+rem 公司DNS1
+route delete 192.168.138.44
+route -p add 192.168.138.44 192.168.137.1
+rem 公司DNS2
+route delete 218.104.111.114
+route -p add 218.104.111.114 192.168.137.1
+
+rem 公司相关ip
+route delete 192.168.138.53
+route -p add 192.168.138.53 192.168.137.1
+rem ip地址需要手动添加 xxx....
+
+pause
+</code></pre>
+<pre><code>@echo off
+rem 切换为内网网关
+route delete 0.0.0.0
+route -p add 0.0.0.0 mask 0.0.0.0 192.168.137.1
+
+rem 公司DNS1
+route delete 192.168.138.44
+rem 公司DNS2
+route delete 218.104.111.114
+
+rem 公司相关ip
+route delete 192.168.138.53
+
+pause
+</code></pre>
+<pre><code>还原脚本主要是为了删除混合网络脚本中添加的路由，也可以拔网线重新来重置
+</code></pre>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://fxxisme.github.io/yi-xie-shi-pin-ci-li-deng-wang-zhan-hui-zong/" class="post-title gt-a-link">
+                    一些视频，磁力等网站汇总
+                </a>
+            </div>
+        
+
+        
+            <span id="/bi-ji-ben-shuang-wang-qia-pei-zhi-nei-wang-he-wai-wang//" class="leancloud_visitors" data-flag-title="笔记本双网卡配置内网和外网">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'P2VI2ct1knMNE4jgV8CR6DCc-gzGzoHsz',
+		appKey: 'UskwKS7iGiIEmECrnD49Crbx',
+		avatar: '',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: 'Just Go Go',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first"><span style="font-size: 12px;font-weight: bold">夕阳像一只猫, 在车头衰老</span></div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://user.qzone.qq.com/961932090" target="_blank">Fxx</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://fxxisme.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

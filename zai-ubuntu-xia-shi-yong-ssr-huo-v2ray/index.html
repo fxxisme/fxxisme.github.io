@@ -1,0 +1,1673 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>在Ubuntu下使用SSR或V2ray | 社会主义后花园</title>
+
+<link rel="shortcut icon" href="https://fxxisme.github.io/favicon.ico?v=1658713138574">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fxxisme.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            社会主义后花园
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1658713138574" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    在Ubuntu下使用SSR或V2ray
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2022-06-10 10:45:58 ·
+                    </time>
+                    
+                        <a href="https://fxxisme.github.io/gHDcBLBVx/" class="post-tags">
+                            # Linux
+                        </a>
+                    
+                        <a href="https://fxxisme.github.io/Sp6IjEu7P/" class="post-tags">
+                            # Ubuntu
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <hr>
+<p><a href="https://www.zybuluo.com/hx/note/1102137">参考链接</a><br>
+<a href="https://doubibackup.com/3we1qxzj-4.html">搭建</a></p>
+<p>[TOC]</p>
+<h3 id="方法1">方法1</h3>
+<p>下载客户端</p>
+<ul>
+<li><a href="https://github.com/qingshuisiyuan/electron-ssr-backup/releases">electron-ssr</a></li>
+<li><a href="https://lanzous.com/ibzymna">备用链接</a></li>
+<li><a href="https://lanzous.com/ibzyspi">另外版本</a></li>
+</ul>
+<p>安装 <code>sudo dpkg -i electron-ssr_0.2.3_amd64.deb </code></p>
+<h3 id="方法2">方法2 :</h3>
+<p>下载和安装客户端（一个 shell 脚本）主要有以下几步：</p>
+<p>下载 SSR：wget http://www.texfox.com/ssr (已失效, 参考下文脚本)<br>
+将其加到 $PATH 环境变量里（不必和我一样的目录，只要保证 SSR 文件能在 PATH 里找到即可）：sudo mv ssr /usr/local/bin<br>
+加入可执行权限：sudo chmod 766 /usr/local/bin/ssr<br>
+安装：ssr install</p>
+<p>配置</p>
+<pre><code class="language-bash">ssr config
+</code></pre>
+<p>可能遇到的错误:</p>
+<pre><code class="language-bash">No protocol specified
+Unable to init server: 无法连接： 拒绝连接
+
+</code></pre>
+<p>解决办法:<br>
+这一步实际上就是配置服务器信息，所以既然这样不行，那我就直接找到修改对应的配置文件。这个配置文件的路径是 /usr/local/share/shadowsocksr/config.json，我们可以手动打开并将自己的服务器信息添加进去即可。<br>
+<a href="https://www.zybuluo.com/mdeditor#1613744">config 文件内容</a><br>
+启动 查看 和帮助</p>
+<pre><code class="language-bash">ssr start
+ssr stop
+ssr restart
+ssr help // 帮助
+</code></pre>
+<hr>
+<pre><code class="language-bash">#!/bin/bash
+# 作者：老徐
+# SSR免费分享网站（所有帐号均来源于网上别人的分享）：http://ss.pythonic.life
+# 源代码主页：https://github.com/the0demiurge
+# 访问https://github.com/the0demiurge/CharlesScripts/blob/master/charles/bin/ssr获取本脚本的最新版
+#使用方法：把该脚本放到$PATH里面并加入可执行权限就行（比如说放到/usr/local/bin）
+#首次使用输入ssr install后安装时会自动安装到/usr/local/share/shadowsocksr
+#输入ssr config进行配置，输入JSON格式的配置文件
+#输入ssr uninstall卸载
+#输入ssr help 现实帮助信息
+set -e
+if [ -z $EDITOR ];then
+    EDITOR=gedit
+fi
+
+help() {
+    echo ShadowSocksR python client tool
+    echo -e if you have not install ssr, please run \&quot;ssr install\&quot;
+    echo Usage:
+    echo -e &quot;\t&quot; ssr help
+    echo -e &quot;\t&quot; ssr config : edit config.json
+    echo -e &quot;\t&quot; ssr install : install shadowsocksr client
+    echo -e &quot;\t&quot; ssr uninstall : uninstall shadowsocksr client
+    echo -e &quot;\t&quot; ssr start : start the shadowsocks service
+    echo -e &quot;\t&quot; ssr stop : stop the shadowsocks service
+    echo -e &quot;\t&quot; ssr log : cat the log of shadowsocks
+}
+install_path=/usr/local/share/shadowsocksr
+if [ $# == 0 ];then
+    help
+    
+elif [ $1 == &quot;help&quot; ];then
+    help
+    
+elif [ $1 == &quot;install&quot; ];then
+    sudo wget www.texfox.com/shadowsocksr.zip
+    sudo unzip shadowsocksr.zip 
+    sudo mv shadowsocksr $install_path
+    sudo rm -rf shadowsocksr.zip 
+    # sudo git clone -b rm https://github.com/the0demiurge/not-in-use.git $install_path
+    
+elif [ $1 == &quot;uninstall&quot; ];then
+    echo &quot;Danger! are you to remove $install_path forever?(y/N)&quot;
+    read doit
+    if [ $doit == 'y' ];then
+        sudo rm -rvf $install_path
+    fi
+    
+elif [ $1 == &quot;config&quot; ];then
+    sudo $EDITOR $install_path/config.json
+    cd $install_path/shadowsocks/
+    sudo python local.py -d stop
+    sudo python local.py -d start
+    
+elif [ $1 == &quot;start&quot; ];then
+    cd $install_path/shadowsocks/
+    sudo python local.py -d start
+    
+elif [ $1 == &quot;stop&quot; ];then
+    cd $install_path/shadowsocks/
+    sudo python local.py -d stop
+    
+elif [ $1 == &quot;log&quot; ];then
+    tail -f /var/log/shadowsocks.log
+    
+elif [ $1 == &quot;shell&quot; ];then
+    cd $install_path/shadowsocks/
+    sudo python local.py $@
+fi
+</code></pre>
+<p>---配置---</p>
+<pre><code class="language-json">{
+    &quot;server&quot;: &quot;35.185.167.115&quot;,
+    &quot;server_ipv6&quot;: &quot;::&quot;,
+    &quot;server_port&quot;: 50087,
+    &quot;local_address&quot;: &quot;127.0.0.1&quot;,
+    &quot;local_port&quot;: 1081,
+
+    &quot;password&quot;: &quot;fyw123456&quot;,
+    &quot;method&quot;: &quot;aes-256-cfb&quot;,
+    &quot;protocol&quot;: &quot;auth_aes128_md5&quot;,
+    &quot;protocol_param&quot;: &quot;&quot;,
+    &quot;obfs&quot;: &quot;tls1.2_ticket_auth&quot;,
+    &quot;obfs_param&quot;: &quot;&quot;,
+    &quot;speed_limit_per_con&quot;: 0,
+    &quot;speed_limit_per_user&quot;: 0,
+
+    &quot;additional_ports&quot; : {}, // only works under multi-user mode
+    &quot;additional_ports_only&quot; : false, // only works under multi-user mode
+    &quot;timeout&quot;: 120,
+    &quot;udp_timeout&quot;: 60,
+    &quot;dns_ipv6&quot;: false,
+    &quot;connect_verbose_info&quot;: 0,
+    &quot;redirect&quot;: &quot;&quot;,
+    &quot;fast_open&quot;: false
+}
+
+</code></pre>
+<h2 id="安装步骤">安装步骤</h2>
+<ol>
+<li>bash go.sh</li>
+<li>编辑配置(替换ip和uuid)<br>
+<code>vim /etc/v2ray/config.json</code></li>
+<li>重启服务<br>
+<code>sudo systemctl v2ray restart</code></li>
+</ol>
+<h2 id="uuid">UUID</h2>
+<pre><code>/* 2020.05.30 更新 */
+21879e21-6dc9-eedd-0d9e-a91422bebb26 // 54.150.237.183
+43c81072-0a9b-506e-0980-a55c8207e0de // 35.236.184.106
+
+</code></pre>
+<h2 id="config_4">config_4</h2>
+<pre><code>{
+  &quot;policy&quot;: {
+    &quot;system&quot;: {
+      &quot;statsInboundUplink&quot;: true,
+      &quot;statsInboundDownlink&quot;: true
+    }
+  },
+  &quot;log&quot;: {
+    &quot;access&quot;: &quot;&quot;,
+    &quot;error&quot;: &quot;&quot;,
+    &quot;loglevel&quot;: &quot;warning&quot;
+  },
+  &quot;inbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;port&quot;: 10808,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;socks&quot;,
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [
+          &quot;http&quot;,
+          &quot;tls&quot;
+        ]
+      },
+      &quot;settings&quot;: {
+        &quot;auth&quot;: &quot;noauth&quot;,
+        &quot;udp&quot;: true,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: null,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;api&quot;,
+      &quot;port&quot;: 1439,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;sniffing&quot;: null,
+      &quot;settings&quot;: {
+        &quot;auth&quot;: null,
+        &quot;udp&quot;: false,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: &quot;127.0.0.1&quot;,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    }
+  ],
+  &quot;outbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;protocol&quot;: &quot;vmess&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: [
+          {
+            &quot;address&quot;: &quot;v2.fyw123.top&quot;,
+            &quot;port&quot;: 12315,
+            &quot;users&quot;: [
+              {
+                &quot;id&quot;: &quot;f9afec58-f850-4f74-83e9-5a924d2e3840&quot;,
+                &quot;alterId&quot;: 10,
+                &quot;email&quot;: &quot;t@t.tt&quot;,
+                &quot;security&quot;: &quot;auto&quot;
+              }
+            ]
+          }
+        ],
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: {
+        &quot;network&quot;: &quot;ws&quot;,
+        &quot;security&quot;: &quot;tls&quot;,
+        &quot;tlsSettings&quot;: {
+          &quot;allowInsecure&quot;: false,
+          &quot;serverName&quot;: &quot;v2.fyw123.top&quot;
+        },
+        &quot;tcpSettings&quot;: null,
+        &quot;kcpSettings&quot;: null,
+        &quot;wsSettings&quot;: {
+          &quot;connectionReuse&quot;: true,
+          &quot;path&quot;: &quot;/f3bdc94cf/&quot;,
+          &quot;headers&quot;: {
+            &quot;Host&quot;: &quot;v2.fyw123.top&quot;
+          }
+        },
+        &quot;httpSettings&quot;: null,
+        &quot;quicSettings&quot;: null
+      },
+      &quot;mux&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;concurrency&quot;: 8
+      }
+    },
+    {
+      &quot;tag&quot;: &quot;direct&quot;,
+      &quot;protocol&quot;: &quot;freedom&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;block&quot;,
+      &quot;protocol&quot;: &quot;blackhole&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: {
+          &quot;type&quot;: &quot;http&quot;
+        }
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    }
+  ],
+  &quot;stats&quot;: {},
+  &quot;api&quot;: {
+    &quot;tag&quot;: &quot;api&quot;,
+    &quot;services&quot;: [
+      &quot;StatsService&quot;
+    ]
+  },
+  &quot;dns&quot;: null,
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPIfNonMatch&quot;,
+    &quot;rules&quot;: [
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: [
+          &quot;api&quot;
+        ],
+        &quot;outboundTag&quot;: &quot;api&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;proxy&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: [
+          &quot;hyperapp.fun&quot;
+        ]
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:private&quot;
+        ],
+        &quot;domain&quot;: null
+      }
+    ]
+  }
+}
+
+</code></pre>
+<h2 id="config_3">config_3</h2>
+<pre><code>{
+  &quot;policy&quot;: {
+    &quot;system&quot;: {
+      &quot;statsInboundUplink&quot;: true,
+      &quot;statsInboundDownlink&quot;: true
+    }
+  },
+  &quot;log&quot;: {
+    &quot;access&quot;: &quot;&quot;,
+    &quot;error&quot;: &quot;&quot;,
+    &quot;loglevel&quot;: &quot;warning&quot;
+  },
+  &quot;inbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;port&quot;: 10808,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;socks&quot;,
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [
+          &quot;http&quot;,
+          &quot;tls&quot;
+        ]
+      },
+      &quot;settings&quot;: {
+        &quot;auth&quot;: &quot;noauth&quot;,
+        &quot;udp&quot;: true,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: null,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;api&quot;,
+      &quot;port&quot;: 1285,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;sniffing&quot;: null,
+      &quot;settings&quot;: {
+        &quot;auth&quot;: null,
+        &quot;udp&quot;: false,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: &quot;127.0.0.1&quot;,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    }
+  ],
+  &quot;outbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;protocol&quot;: &quot;vmess&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: [
+          {
+            &quot;address&quot;: &quot;35.236.184.106&quot;,
+            &quot;port&quot;: 30022,
+            &quot;users&quot;: [
+              {
+                &quot;id&quot;: &quot;43c81072-0a9b-506e-0980-a55c8207e0de&quot;,
+                &quot;alterId&quot;: 32,
+                &quot;email&quot;: &quot;t@t.tt&quot;,
+                &quot;security&quot;: &quot;auto&quot;
+              }
+            ]
+          }
+        ],
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: {
+        &quot;network&quot;: &quot;tcp&quot;,
+        &quot;security&quot;: null,
+        &quot;tlsSettings&quot;: null,
+        &quot;tcpSettings&quot;: null,
+        &quot;kcpSettings&quot;: null,
+        &quot;wsSettings&quot;: null,
+        &quot;httpSettings&quot;: null,
+        &quot;quicSettings&quot;: null
+      },
+      &quot;mux&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;concurrency&quot;: 8
+      }
+    },
+    {
+      &quot;tag&quot;: &quot;direct&quot;,
+      &quot;protocol&quot;: &quot;freedom&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;block&quot;,
+      &quot;protocol&quot;: &quot;blackhole&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: {
+          &quot;type&quot;: &quot;http&quot;
+        }
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    }
+  ],
+  &quot;stats&quot;: {},
+  &quot;api&quot;: {
+    &quot;tag&quot;: &quot;api&quot;,
+    &quot;services&quot;: [
+      &quot;StatsService&quot;
+    ]
+  },
+  &quot;dns&quot;: null,
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPIfNonMatch&quot;,
+    &quot;rules&quot;: [
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: [
+          &quot;api&quot;
+        ],
+        &quot;outboundTag&quot;: &quot;api&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;proxy&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: [
+          &quot;hyperapp.fun&quot;
+        ]
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:private&quot;
+        ],
+        &quot;domain&quot;: null
+      }
+    ]
+  }
+}
+</code></pre>
+<h2 id="config_2">config_2</h2>
+<pre><code>
+{
+  &quot;policy&quot;: {
+    &quot;system&quot;: {
+      &quot;statsInboundUplink&quot;: true,
+      &quot;statsInboundDownlink&quot;: true
+    }
+  },
+  &quot;log&quot;: {
+    &quot;access&quot;: &quot;&quot;,
+    &quot;error&quot;: &quot;&quot;,
+    &quot;loglevel&quot;: &quot;warning&quot;
+  },
+  &quot;inbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;port&quot;: 10808,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;socks&quot;,
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [
+          &quot;http&quot;,
+          &quot;tls&quot;
+        ]
+      },
+      &quot;settings&quot;: {
+        &quot;auth&quot;: &quot;noauth&quot;,
+        &quot;udp&quot;: true,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: null,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;api&quot;,
+      &quot;port&quot;: 2159,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;sniffing&quot;: null,
+      &quot;settings&quot;: {
+        &quot;auth&quot;: null,
+        &quot;udp&quot;: false,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: &quot;127.0.0.1&quot;,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    }
+  ],
+  &quot;outbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;protocol&quot;: &quot;vmess&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: [
+          {
+            &quot;address&quot;: &quot;v2.fywzbc.top&quot;,
+            &quot;port&quot;: 12315,
+            &quot;users&quot;: [
+              {
+                &quot;id&quot;: &quot;9b286d84-d5cc-4850-a710-7568849ec929&quot;,
+                &quot;alterId&quot;: 10,
+                &quot;email&quot;: &quot;t@t.tt&quot;,
+                &quot;security&quot;: &quot;auto&quot;
+              }
+            ]
+          }
+        ],
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: {
+        &quot;network&quot;: &quot;h2&quot;,
+        &quot;security&quot;: &quot;tls&quot;,
+        &quot;tlsSettings&quot;: {
+          &quot;allowInsecure&quot;: false,
+          &quot;serverName&quot;: null
+        },
+        &quot;tcpSettings&quot;: null,
+        &quot;kcpSettings&quot;: null,
+        &quot;wsSettings&quot;: null,
+        &quot;httpSettings&quot;: {
+          &quot;path&quot;: &quot;/878303bc51e/&quot;,
+          &quot;host&quot;: null
+        },
+        &quot;quicSettings&quot;: null
+      },
+      &quot;mux&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;concurrency&quot;: 8
+      }
+    },
+    {
+      &quot;tag&quot;: &quot;direct&quot;,
+      &quot;protocol&quot;: &quot;freedom&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;block&quot;,
+      &quot;protocol&quot;: &quot;blackhole&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: {
+          &quot;type&quot;: &quot;http&quot;
+        }
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    }
+  ],
+  &quot;stats&quot;: {},
+  &quot;api&quot;: {
+    &quot;tag&quot;: &quot;api&quot;,
+    &quot;services&quot;: [
+      &quot;StatsService&quot;
+    ]
+  },
+  &quot;dns&quot;: null,
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPIfNonMatch&quot;,
+    &quot;rules&quot;: [
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: [
+          &quot;api&quot;
+        ],
+        &quot;outboundTag&quot;: &quot;api&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;proxy&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: [
+          &quot;hyperapp.fun&quot;
+        ]
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:private&quot;
+        ],
+        &quot;domain&quot;: null
+      }
+    ]
+  }
+}
+
+</code></pre>
+<h2 id="config_1">config_1</h2>
+<pre><code>
+{
+  &quot;policy&quot;: {
+    &quot;system&quot;: {
+      &quot;statsInboundUplink&quot;: true,
+      &quot;statsInboundDownlink&quot;: true
+    }
+  },
+  &quot;log&quot;: {
+    &quot;access&quot;: &quot;&quot;,
+    &quot;error&quot;: &quot;&quot;,
+    &quot;loglevel&quot;: &quot;warning&quot;
+  },
+  &quot;inbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;port&quot;: 10808,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;socks&quot;,
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [
+          &quot;http&quot;,
+          &quot;tls&quot;
+        ]
+      },
+      &quot;settings&quot;: {
+        &quot;auth&quot;: &quot;noauth&quot;,
+        &quot;udp&quot;: true,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: null,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;api&quot;,
+      &quot;port&quot;: 14734,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;sniffing&quot;: null,
+      &quot;settings&quot;: {
+        &quot;auth&quot;: null,
+        &quot;udp&quot;: false,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: &quot;127.0.0.1&quot;,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    }
+  ],
+  &quot;outbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;protocol&quot;: &quot;vmess&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: [
+          {
+            &quot;address&quot;: &quot;v2.fyw123.top&quot;,
+            &quot;port&quot;: 12315,
+            &quot;users&quot;: [
+              {
+                &quot;id&quot;: &quot;f9afec58-f850-4f74-83e9-5a924d2e3840&quot;,
+                &quot;alterId&quot;: 10,
+                &quot;email&quot;: &quot;t@t.tt&quot;,
+                &quot;security&quot;: &quot;auto&quot;
+              }
+            ]
+          }
+        ],
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: {
+        &quot;network&quot;: &quot;ws&quot;,
+        &quot;security&quot;: &quot;tls&quot;,
+        &quot;tlsSettings&quot;: {
+          &quot;allowInsecure&quot;: false,
+          &quot;serverName&quot;: &quot;v2.fyw123.top&quot;
+        },
+        &quot;tcpSettings&quot;: null,
+        &quot;kcpSettings&quot;: null,
+        &quot;wsSettings&quot;: {
+          &quot;connectionReuse&quot;: true,
+          &quot;path&quot;: &quot;/f3bdc94cf/&quot;,
+          &quot;headers&quot;: {
+            &quot;Host&quot;: &quot;v2.fyw123.top&quot;
+          }
+        },
+        &quot;httpSettings&quot;: null,
+        &quot;quicSettings&quot;: null
+      },
+      &quot;mux&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;concurrency&quot;: 8
+      }
+    },
+    {
+      &quot;tag&quot;: &quot;direct&quot;,
+      &quot;protocol&quot;: &quot;freedom&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;block&quot;,
+      &quot;protocol&quot;: &quot;blackhole&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: {
+          &quot;type&quot;: &quot;http&quot;
+        }
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    }
+  ],
+  &quot;stats&quot;: {},
+  &quot;api&quot;: {
+    &quot;tag&quot;: &quot;api&quot;,
+    &quot;services&quot;: [
+      &quot;StatsService&quot;
+    ]
+  },
+  &quot;dns&quot;: null,
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPIfNonMatch&quot;,
+    &quot;rules&quot;: [
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: [
+          &quot;api&quot;
+        ],
+        &quot;outboundTag&quot;: &quot;api&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;proxy&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: [
+          &quot;hyperapp.fun&quot;
+        ]
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:private&quot;
+        ],
+        &quot;domain&quot;: null
+      }
+    ]
+  }
+}
+
+</code></pre>
+<h2 id="1v2ray-安装脚本">1.v2ray 安装脚本</h2>
+<pre><code class="language-sh">#!/bin/bash
+
+# This file is accessible as https://install.direct/go.sh
+# Original source is located at github.com/v2ray/v2ray-core/release/install-release.sh
+
+# If not specify, default meaning of return value:
+# 0: Success
+# 1: System error
+# 2: Application error
+# 3: Network error
+
+# CLI arguments
+PROXY=''
+HELP=''
+FORCE=''
+CHECK=''
+REMOVE=''
+VERSION=''
+VSRC_ROOT='/tmp/v2ray'
+EXTRACT_ONLY=''
+LOCAL=''
+LOCAL_INSTALL=''
+DIST_SRC='jsdelivr'
+ERROR_IF_UPTODATE=''
+
+CUR_VER=&quot;&quot;
+NEW_VER=&quot;&quot;
+VDIS=''
+ZIPFILE=&quot;/tmp/v2ray/v2ray.zip&quot;
+V2RAY_RUNNING=0
+
+CMD_INSTALL=&quot;&quot;
+CMD_UPDATE=&quot;&quot;
+SOFTWARE_UPDATED=0
+
+SYSTEMCTL_CMD=$(command -v systemctl 2&gt;/dev/null)
+SERVICE_CMD=$(command -v service 2&gt;/dev/null)
+
+#######color code########
+RED=&quot;31m&quot;      # Error message
+GREEN=&quot;32m&quot;    # Success message
+YELLOW=&quot;33m&quot;   # Warning message
+BLUE=&quot;36m&quot;     # Info message
+
+
+#########################
+while [[ $# &gt; 0 ]]; do
+    case &quot;$1&quot; in
+        -p|--proxy)
+        PROXY=&quot;-x ${2}&quot;
+        shift # past argument
+        ;;
+        -h|--help)
+        HELP=&quot;1&quot;
+        ;;
+        -f|--force)
+        FORCE=&quot;1&quot;
+        ;;
+        -c|--check)
+        CHECK=&quot;1&quot;
+        ;;
+        --remove)
+        REMOVE=&quot;1&quot;
+        ;;
+        --version)
+        VERSION=&quot;$2&quot;
+        shift
+        ;;
+        --extract)
+        VSRC_ROOT=&quot;$2&quot;
+        shift
+        ;;
+        --extractonly)
+        EXTRACT_ONLY=&quot;1&quot;
+        ;;
+        -l|--local)
+        LOCAL=&quot;$2&quot;
+        LOCAL_INSTALL=&quot;1&quot;
+        shift
+        ;;
+        --source)
+        DIST_SRC=&quot;$2&quot;
+        shift
+        ;;
+        --errifuptodate)
+        ERROR_IF_UPTODATE=&quot;1&quot;
+        ;;
+        *)
+                # unknown option
+        ;;
+    esac
+    shift # past argument or value
+done
+
+###############################
+colorEcho(){
+    echo -e &quot;\033[${1}${@:2}\033[0m&quot; 1&gt;&amp; 2
+}
+
+archAffix(){
+    case &quot;${1:-&quot;$(uname -m)&quot;}&quot; in
+        i686|i386)
+            echo '32'
+        ;;
+        x86_64|amd64)
+            echo '64'
+        ;;
+        *armv7*|armv6l)
+            echo 'arm'
+        ;;
+        *armv8*|aarch64)
+            echo 'arm64'
+        ;;
+        *mips64le*)
+            echo 'mips64le'
+        ;;
+        *mips64*)
+            echo 'mips64'
+        ;;
+        *mipsle*)
+            echo 'mipsle'
+        ;;
+        *mips*)
+            echo 'mips'
+        ;;
+        *s390x*)
+            echo 's390x'
+        ;;
+        ppc64le)
+            echo 'ppc64le'
+        ;;
+        ppc64)
+            echo 'ppc64'
+        ;;
+        *)
+            return 1
+        ;;
+    esac
+
+	return 0
+}
+
+zipRoot() {
+    unzip -lqq &quot;$1&quot; | awk -e '
+        NR == 1 {
+            prefix = $4;
+        }
+        NR != 1 {
+            prefix_len = length(prefix);
+            cur_len = length($4);
+
+            for (len = prefix_len &lt; cur_len ? prefix_len : cur_len; len &gt;= 1; len -= 1) {
+                sub_prefix = substr(prefix, 1, len);
+                sub_cur = substr($4, 1, len);
+
+                if (sub_prefix == sub_cur) {
+                    prefix = sub_prefix;
+                    break;
+                }
+            }
+
+            if (len == 0) {
+                prefix = &quot;&quot;;
+                nextfile;
+            }
+        }
+        END {
+            print prefix;
+        }
+    '
+}
+
+downloadV2Ray(){
+    rm -rf /tmp/v2ray
+    mkdir -p /tmp/v2ray
+    if [[ &quot;${DIST_SRC}&quot; == &quot;jsdelivr&quot; ]]; then
+        DOWNLOAD_LINK=&quot;https://cdn.jsdelivr.net/gh/v2ray/dist/v2ray-linux-${VDIS}.zip&quot;
+    else
+        DOWNLOAD_LINK=&quot;https://github.com/v2ray/v2ray-core/releases/download/${NEW_VER}/v2ray-linux-${VDIS}.zip&quot;
+    fi
+    colorEcho ${BLUE} &quot;Downloading V2Ray: ${DOWNLOAD_LINK}&quot;
+    curl ${PROXY} -L -H &quot;Cache-Control: no-cache&quot; -o ${ZIPFILE} ${DOWNLOAD_LINK}
+    if [ $? != 0 ];then
+        colorEcho ${RED} &quot;Failed to download! Please check your network or try again.&quot;
+        return 3
+    fi
+    return 0
+}
+
+installSoftware(){
+    COMPONENT=$1
+    if [[ -n `command -v $COMPONENT` ]]; then
+        return 0
+    fi
+
+    getPMT
+    if [[ $? -eq 1 ]]; then
+        colorEcho ${RED} &quot;The system package manager tool isn't APT or YUM, please install ${COMPONENT} manually.&quot;
+        return 1
+    fi
+    if [[ $SOFTWARE_UPDATED -eq 0 ]]; then
+        colorEcho ${BLUE} &quot;Updating software repo&quot;
+        $CMD_UPDATE
+        SOFTWARE_UPDATED=1
+    fi
+
+    colorEcho ${BLUE} &quot;Installing ${COMPONENT}&quot;
+    $CMD_INSTALL $COMPONENT
+    if [[ $? -ne 0 ]]; then
+        colorEcho ${RED} &quot;Failed to install ${COMPONENT}. Please install it manually.&quot;
+        return 1
+    fi
+    return 0
+}
+
+# return 1: not apt, yum, or zypper
+getPMT(){
+    if [[ -n `command -v apt-get` ]];then
+        CMD_INSTALL=&quot;apt-get -y -qq install&quot;
+        CMD_UPDATE=&quot;apt-get -qq update&quot;
+    elif [[ -n `command -v yum` ]]; then
+        CMD_INSTALL=&quot;yum -y -q install&quot;
+        CMD_UPDATE=&quot;yum -q makecache&quot;
+    elif [[ -n `command -v zypper` ]]; then
+        CMD_INSTALL=&quot;zypper -y install&quot;
+        CMD_UPDATE=&quot;zypper ref&quot;
+    else
+        return 1
+    fi
+    return 0
+}
+
+normalizeVersion() {
+    if [ -n &quot;$1&quot; ]; then
+        case &quot;$1&quot; in
+            v*)
+                echo &quot;$1&quot;
+            ;;
+            *)
+                echo &quot;v$1&quot;
+            ;;
+        esac
+    else
+        echo &quot;&quot;
+    fi
+}
+
+# 1: new V2Ray. 0: no. 2: not installed. 3: check failed. 4: don't check.
+getVersion(){
+    if [[ -n &quot;$VERSION&quot; ]]; then
+        NEW_VER=&quot;$(normalizeVersion &quot;$VERSION&quot;)&quot;
+        return 4
+    else
+        VER=&quot;$(/usr/bin/v2ray/v2ray -version 2&gt;/dev/null)&quot;
+        RETVAL=$?
+        CUR_VER=&quot;$(normalizeVersion &quot;$(echo &quot;$VER&quot; | head -n 1 | cut -d &quot; &quot; -f2)&quot;)&quot;
+        TAG_URL=&quot;https://api.github.com/repos/v2ray/v2ray-core/releases/latest&quot;
+        NEW_VER=&quot;$(normalizeVersion &quot;$(curl ${PROXY} -H &quot;Accept: application/json&quot; -H &quot;User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0&quot; -s &quot;${TAG_URL}&quot; --connect-timeout 10| grep 'tag_name' | cut -d\&quot; -f4)&quot;)&quot;
+
+        if [[ $? -ne 0 ]] || [[ $NEW_VER == &quot;&quot; ]]; then
+            colorEcho ${RED} &quot;Failed to fetch release information. Please check your network or try again.&quot;
+            return 3
+        elif [[ $RETVAL -ne 0 ]];then
+            return 2
+        elif [[ $NEW_VER != $CUR_VER ]];then
+            return 1
+        fi
+        return 0
+    fi
+}
+
+stopV2ray(){
+    colorEcho ${BLUE} &quot;Shutting down V2Ray service.&quot;
+    if [[ -n &quot;${SYSTEMCTL_CMD}&quot; ]] || [[ -f &quot;/lib/systemd/system/v2ray.service&quot; ]] || [[ -f &quot;/etc/systemd/system/v2ray.service&quot; ]]; then
+        ${SYSTEMCTL_CMD} stop v2ray
+    elif [[ -n &quot;${SERVICE_CMD}&quot; ]] || [[ -f &quot;/etc/init.d/v2ray&quot; ]]; then
+        ${SERVICE_CMD} v2ray stop
+    fi
+    if [[ $? -ne 0 ]]; then
+        colorEcho ${YELLOW} &quot;Failed to shutdown V2Ray service.&quot;
+        return 2
+    fi
+    return 0
+}
+
+startV2ray(){
+    if [ -n &quot;${SYSTEMCTL_CMD}&quot; ] &amp;&amp; [[ -f &quot;/lib/systemd/system/v2ray.service&quot; || -f &quot;/etc/systemd/system/v2ray.service&quot; ]]; then
+        ${SYSTEMCTL_CMD} start v2ray
+    elif [ -n &quot;${SERVICE_CMD}&quot; ] &amp;&amp; [ -f &quot;/etc/init.d/v2ray&quot; ]; then
+        ${SERVICE_CMD} v2ray start
+    fi
+    if [[ $? -ne 0 ]]; then
+        colorEcho ${YELLOW} &quot;Failed to start V2Ray service.&quot;
+        return 2
+    fi
+    return 0
+}
+
+installV2Ray(){
+    # Install V2Ray binary to /usr/bin/v2ray
+    mkdir -p '/etc/v2ray' '/var/log/v2ray' &amp;&amp; \
+    unzip -oj &quot;$1&quot; &quot;$2v2ray&quot; &quot;$2v2ctl&quot; &quot;$2geoip.dat&quot; &quot;$2geosite.dat&quot; -d '/usr/bin/v2ray' &amp;&amp; \
+    chmod +x '/usr/bin/v2ray/v2ray' '/usr/bin/v2ray/v2ctl' || {
+        colorEcho ${RED} &quot;Failed to copy V2Ray binary and resources.&quot;
+        return 1
+    }
+
+    # Install V2Ray server config to /etc/v2ray
+    if [ ! -f '/etc/v2ray/config.json' ]; then
+        local PORT=&quot;$(($RANDOM + 10000))&quot;
+        local UUID=&quot;$(cat '/proc/sys/kernel/random/uuid')&quot;
+
+        unzip -pq &quot;$1&quot; &quot;$2vpoint_vmess_freedom.json&quot; | \
+        sed -e &quot;s/10086/${PORT}/g; s/23ad6b10-8d1a-40f7-8ad0-e3e35cd38297/${UUID}/g;&quot; - &gt; \
+        '/etc/v2ray/config.json' || {
+            colorEcho ${YELLOW} &quot;Failed to create V2Ray configuration file. Please create it manually.&quot;
+            return 1
+        }
+
+        colorEcho ${BLUE} &quot;PORT:${PORT}&quot;
+        colorEcho ${BLUE} &quot;UUID:${UUID}&quot;
+    fi
+}
+
+
+installInitScript(){
+    if [[ -n &quot;${SYSTEMCTL_CMD}&quot; ]]; then
+        if [[ ! -f &quot;/etc/systemd/system/v2ray.service&quot; &amp;&amp; ! -f &quot;/lib/systemd/system/v2ray.service&quot; ]]; then
+            unzip -oj &quot;$1&quot; &quot;$2systemd/v2ray.service&quot; -d '/etc/systemd/system' &amp;&amp; \
+            systemctl enable v2ray.service
+        fi
+    elif [[ -n &quot;${SERVICE_CMD}&quot; ]] &amp;&amp; [[ ! -f &quot;/etc/init.d/v2ray&quot; ]]; then
+        installSoftware 'daemon' &amp;&amp; \
+        unzip -oj &quot;$1&quot; &quot;$2systemv/v2ray&quot; -d '/etc/init.d' &amp;&amp; \
+        chmod +x '/etc/init.d/v2ray' &amp;&amp; \
+        update-rc.d v2ray defaults
+    fi
+}
+
+Help(){
+  cat - 1&gt;&amp; 2 &lt;&lt; EOF
+./install-release.sh [-h] [-c] [--remove] [-p proxy] [-f] [--version vx.y.z] [-l file]
+  -h, --help            Show help
+  -p, --proxy           To download through a proxy server, use -p socks5://127.0.0.1:1080 or -p http://127.0.0.1:3128 etc
+  -f, --force           Force install
+      --version         Install a particular version, use --version v3.15
+  -l, --local           Install from a local file
+      --remove          Remove installed V2Ray
+  -c, --check           Check for update
+EOF
+}
+
+remove(){
+    if [[ -n &quot;${SYSTEMCTL_CMD}&quot; ]] &amp;&amp; [[ -f &quot;/etc/systemd/system/v2ray.service&quot; ]];then
+        if pgrep &quot;v2ray&quot; &gt; /dev/null ; then
+            stopV2ray
+        fi
+        systemctl disable v2ray.service
+        rm -rf &quot;/usr/bin/v2ray&quot; &quot;/etc/systemd/system/v2ray.service&quot;
+        if [[ $? -ne 0 ]]; then
+            colorEcho ${RED} &quot;Failed to remove V2Ray.&quot;
+            return 0
+        else
+            colorEcho ${GREEN} &quot;Removed V2Ray successfully.&quot;
+            colorEcho ${BLUE} &quot;If necessary, please remove configuration file and log file manually.&quot;
+            return 0
+        fi
+    elif [[ -n &quot;${SYSTEMCTL_CMD}&quot; ]] &amp;&amp; [[ -f &quot;/lib/systemd/system/v2ray.service&quot; ]];then
+        if pgrep &quot;v2ray&quot; &gt; /dev/null ; then
+            stopV2ray
+        fi
+        systemctl disable v2ray.service
+        rm -rf &quot;/usr/bin/v2ray&quot; &quot;/lib/systemd/system/v2ray.service&quot;
+        if [[ $? -ne 0 ]]; then
+            colorEcho ${RED} &quot;Failed to remove V2Ray.&quot;
+            return 0
+        else
+            colorEcho ${GREEN} &quot;Removed V2Ray successfully.&quot;
+            colorEcho ${BLUE} &quot;If necessary, please remove configuration file and log file manually.&quot;
+            return 0
+        fi
+    elif [[ -n &quot;${SERVICE_CMD}&quot; ]] &amp;&amp; [[ -f &quot;/etc/init.d/v2ray&quot; ]]; then
+        if pgrep &quot;v2ray&quot; &gt; /dev/null ; then
+            stopV2ray
+        fi
+        rm -rf &quot;/usr/bin/v2ray&quot; &quot;/etc/init.d/v2ray&quot;
+        if [[ $? -ne 0 ]]; then
+            colorEcho ${RED} &quot;Failed to remove V2Ray.&quot;
+            return 0
+        else
+            colorEcho ${GREEN} &quot;Removed V2Ray successfully.&quot;
+            colorEcho ${BLUE} &quot;If necessary, please remove configuration file and log file manually.&quot;
+            return 0
+        fi
+    else
+        colorEcho ${YELLOW} &quot;V2Ray not found.&quot;
+        return 0
+    fi
+}
+
+checkUpdate(){
+    echo &quot;Checking for update.&quot;
+    VERSION=&quot;&quot;
+    getVersion
+    RETVAL=&quot;$?&quot;
+    if [[ $RETVAL -eq 1 ]]; then
+        colorEcho ${BLUE} &quot;Found new version ${NEW_VER} for V2Ray.(Current version:$CUR_VER)&quot;
+    elif [[ $RETVAL -eq 0 ]]; then
+        colorEcho ${BLUE} &quot;No new version. Current version is ${NEW_VER}.&quot;
+    elif [[ $RETVAL -eq 2 ]]; then
+        colorEcho ${YELLOW} &quot;No V2Ray installed.&quot;
+        colorEcho ${BLUE} &quot;The newest version for V2Ray is ${NEW_VER}.&quot;
+    fi
+    return 0
+}
+
+main(){
+    #helping information
+    [[ &quot;$HELP&quot; == &quot;1&quot; ]] &amp;&amp; Help &amp;&amp; return
+    [[ &quot;$CHECK&quot; == &quot;1&quot; ]] &amp;&amp; checkUpdate &amp;&amp; return
+    [[ &quot;$REMOVE&quot; == &quot;1&quot; ]] &amp;&amp; remove &amp;&amp; return
+
+    local ARCH=$(uname -m)
+    VDIS=&quot;$(archAffix)&quot;
+
+    # extract local file
+    if [[ $LOCAL_INSTALL -eq 1 ]]; then
+        colorEcho ${YELLOW} &quot;Installing V2Ray via local file. Please make sure the file is a valid V2Ray package, as we are not able to determine that.&quot;
+        NEW_VER=local
+        rm -rf /tmp/v2ray
+        ZIPFILE=&quot;$LOCAL&quot;
+        #FILEVDIS=`ls /tmp/v2ray |grep v2ray-v |cut -d &quot;-&quot; -f4`
+        #SYSTEM=`ls /tmp/v2ray |grep v2ray-v |cut -d &quot;-&quot; -f3`
+        #if [[ ${SYSTEM} != &quot;linux&quot; ]]; then
+        #    colorEcho ${RED} &quot;The local V2Ray can not be installed in linux.&quot;
+        #    return 1
+        #elif [[ ${FILEVDIS} != ${VDIS} ]]; then
+        #    colorEcho ${RED} &quot;The local V2Ray can not be installed in ${ARCH} system.&quot;
+        #    return 1
+        #else
+        #    NEW_VER=`ls /tmp/v2ray |grep v2ray-v |cut -d &quot;-&quot; -f2`
+        #fi
+    else
+        # download via network and extract
+        installSoftware &quot;curl&quot; || return $?
+        getVersion
+        RETVAL=&quot;$?&quot;
+        if [[ $RETVAL == 0 ]] &amp;&amp; [[ &quot;$FORCE&quot; != &quot;1&quot; ]]; then
+            colorEcho ${BLUE} &quot;Latest version ${CUR_VER} is already installed.&quot;
+            if [ -n &quot;${ERROR_IF_UPTODATE}&quot; ]; then
+              return 10
+            fi
+            return
+        elif [[ $RETVAL == 3 ]]; then
+            return 3
+        else
+            colorEcho ${BLUE} &quot;Installing V2Ray ${NEW_VER} on ${ARCH}&quot;
+            downloadV2Ray || return $?
+        fi
+    fi
+
+    local ZIPROOT=&quot;$(zipRoot &quot;${ZIPFILE}&quot;)&quot;
+    installSoftware unzip || return $?
+
+    if [ -n &quot;${EXTRACT_ONLY}&quot; ]; then
+        colorEcho ${BLUE} &quot;Extracting V2Ray package to ${VSRC_ROOT}.&quot;
+
+        if unzip -o &quot;${ZIPFILE}&quot; -d ${VSRC_ROOT}; then
+            colorEcho ${GREEN} &quot;V2Ray extracted to ${VSRC_ROOT%/}${ZIPROOT:+/${ZIPROOT%/}}, and exiting...&quot;
+            return 0
+        else
+            colorEcho ${RED} &quot;Failed to extract V2Ray.&quot;
+            return 2
+        fi
+    fi
+
+    if pgrep &quot;v2ray&quot; &gt; /dev/null ; then
+        V2RAY_RUNNING=1
+        stopV2ray
+    fi
+    installV2Ray &quot;${ZIPFILE}&quot; &quot;${ZIPROOT}&quot; || return $?
+    installInitScript &quot;${ZIPFILE}&quot; &quot;${ZIPROOT}&quot; || return $?
+    if [[ ${V2RAY_RUNNING} -eq 1 ]];then
+        colorEcho ${BLUE} &quot;Restarting V2Ray service.&quot;
+        startV2ray
+    fi
+    colorEcho ${GREEN} &quot;V2Ray ${NEW_VER} is installed.&quot;
+    rm -rf /tmp/v2ray
+    return 0
+}
+
+main
+
+</code></pre>
+<h2 id="2v2ray-配置文件">2.v2ray 配置文件</h2>
+<pre><code class="language-json">// 配置文件
+{
+  &quot;inbounds&quot;: [{
+    &quot;port&quot;: 1080,  // SOCKS 代理端口，在浏览器中需配置代理并指向这个端口
+    &quot;listen&quot;: &quot;127.0.0.1&quot;,
+    &quot;protocol&quot;: &quot;socks&quot;,
+    &quot;settings&quot;: {
+      &quot;udp&quot;: true
+    }
+  }],
+  &quot;outbounds&quot;: [{
+    &quot;protocol&quot;: &quot;vmess&quot;,
+    &quot;settings&quot;: {
+      &quot;vnext&quot;: [{
+        &quot;address&quot;: &quot;35.236.165.167&quot;, // 服务器地址，请修改为你自己的服务器 ip 或域名
+        &quot;port&quot;: 50288,  // 服务器端口
+        &quot;users&quot;: [{ &quot;id&quot;: &quot;29ebe5f0-133a-a90b-00b7-dbe41a820b3d&quot; }]
+      }]
+    }
+  },{
+    &quot;protocol&quot;: &quot;freedom&quot;,
+    &quot;tag&quot;: &quot;direct&quot;,
+    &quot;settings&quot;: {}
+  }],
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPOnDemand&quot;,
+    &quot;rules&quot;: [{
+      &quot;type&quot;: &quot;field&quot;,
+      &quot;ip&quot;: [&quot;geoip:private&quot;],
+      &quot;outboundTag&quot;: &quot;direct&quot;
+    }]
+  }
+}
+</code></pre>
+<pre><code class="language-sh">{
+  &quot;policy&quot;: {
+    &quot;system&quot;: {
+      &quot;statsInboundUplink&quot;: true,
+      &quot;statsInboundDownlink&quot;: true
+    }
+  },
+  &quot;log&quot;: {
+    &quot;access&quot;: &quot;&quot;,
+    &quot;error&quot;: &quot;&quot;,
+    &quot;loglevel&quot;: &quot;warning&quot;
+  },
+  &quot;inbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;port&quot;: 10808,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;socks&quot;,
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [
+          &quot;http&quot;,
+          &quot;tls&quot;
+        ]
+      },
+      &quot;settings&quot;: {
+        &quot;auth&quot;: &quot;noauth&quot;,
+        &quot;udp&quot;: true,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: null,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;api&quot;,
+      &quot;port&quot;: 1508,
+      &quot;listen&quot;: &quot;127.0.0.1&quot;,
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;sniffing&quot;: null,
+      &quot;settings&quot;: {
+        &quot;auth&quot;: null,
+        &quot;udp&quot;: false,
+        &quot;ip&quot;: null,
+        &quot;address&quot;: &quot;127.0.0.1&quot;,
+        &quot;clients&quot;: null
+      },
+      &quot;streamSettings&quot;: null
+    }
+  ],
+  &quot;outbounds&quot;: [
+    {
+      &quot;tag&quot;: &quot;proxy&quot;,
+      &quot;protocol&quot;: &quot;vmess&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: [
+          {
+            &quot;address&quot;: &quot;35.236.184.106&quot;,
+            &quot;port&quot;: 30021,
+            &quot;users&quot;: [
+              {
+                &quot;id&quot;: &quot;43c81072-0a9b-506e-0980-a55c8207e0de&quot;,
+                &quot;alterId&quot;: 32,
+                &quot;email&quot;: &quot;t@t.tt&quot;,
+                &quot;security&quot;: &quot;auto&quot;
+              }
+            ]
+          }
+        ],
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: {
+        &quot;network&quot;: &quot;tcp&quot;,
+        &quot;security&quot;: null,
+        &quot;tlsSettings&quot;: null,
+        &quot;tcpSettings&quot;: null,
+        &quot;kcpSettings&quot;: null,
+        &quot;wsSettings&quot;: null,
+        &quot;httpSettings&quot;: null,
+        &quot;quicSettings&quot;: null
+      },
+      &quot;mux&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;concurrency&quot;: 8
+      }
+    },
+    {
+      &quot;tag&quot;: &quot;direct&quot;,
+      &quot;protocol&quot;: &quot;freedom&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: null
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    },
+    {
+      &quot;tag&quot;: &quot;block&quot;,
+      &quot;protocol&quot;: &quot;blackhole&quot;,
+      &quot;settings&quot;: {
+        &quot;vnext&quot;: null,
+        &quot;servers&quot;: null,
+        &quot;response&quot;: {
+          &quot;type&quot;: &quot;http&quot;
+        }
+      },
+      &quot;streamSettings&quot;: null,
+      &quot;mux&quot;: null
+    }
+  ],
+  &quot;stats&quot;: {},
+  &quot;api&quot;: {
+    &quot;tag&quot;: &quot;api&quot;,
+    &quot;services&quot;: [
+      &quot;StatsService&quot;
+    ]
+  },
+  &quot;dns&quot;: null,
+  &quot;routing&quot;: {
+    &quot;domainStrategy&quot;: &quot;IPIfNonMatch&quot;,
+    &quot;rules&quot;: [
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: [
+          &quot;api&quot;
+        ],
+        &quot;outboundTag&quot;: &quot;api&quot;,
+        &quot;ip&quot;: null,
+        &quot;domain&quot;: null
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;port&quot;: null,
+        &quot;inboundTag&quot;: null,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:private&quot;
+        ],
+        &quot;domain&quot;: null
+      }
+    ]
+  }
+}
+
+</code></pre>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://fxxisme.github.io/guan-yu-shi-yong-ubuntu-1804-yi-xie-you-hua/" class="post-title gt-a-link">
+                    关于使用Ubuntu 18.04一些优化
+                </a>
+            </div>
+        
+
+        
+            <span id="/zai-ubuntu-xia-shi-yong-ssr-huo-v2ray//" class="leancloud_visitors" data-flag-title="在Ubuntu下使用SSR或V2ray">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'P2VI2ct1knMNE4jgV8CR6DCc-gzGzoHsz',
+		appKey: 'UskwKS7iGiIEmECrnD49Crbx',
+		avatar: '',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: 'Just Go Go',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first"><span style="font-size: 12px;font-weight: bold">夕阳像一只猫, 在车头衰老</span></div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://user.qzone.qq.com/961932090" target="_blank">Fxx</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://fxxisme.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
